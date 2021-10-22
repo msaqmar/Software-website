@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
 $primary-color: #6C63FF;
 $secondary-color: white;
 $third-color: black;
@@ -6,6 +8,12 @@ $third-color: black;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+ul{
+    list-style: none;
 }
 
 // ////////////////  COLORS  ////////////////////////////

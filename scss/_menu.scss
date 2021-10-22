@@ -1,27 +1,80 @@
 .menu-icon {
     display: inline-block;
     cursor: pointer;
+    width: 2.5em;
+
+    svg{
+      color: $primary-color;
+      width: 100%;
+    }
    
     
   }
 
-  .bar1, .bar2, .bar3 {
-    width: 40px;
-    height: 5px;
-    background-color: $primary-color;
-    margin: 0.5em 0;
-    transition: 0.4s;
-  }
+ 
+
+
+  .nav-list {
+    display: none;
+    position:fixed;
+    
+    top: 0;
+    left: 0;
+    background-color: $secondary-color;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+
+     animation: open-nav 0.2s linear;
+
+    @keyframes open-nav {
+      from{
+        width: 0;
   
-  .change .bar1 {
-    transform: rotate(-45deg) translate(-9px, 6px);
-  }
+      }
+      to{
+        width: 100%;
   
-  .change .bar2 {opacity: 0;}
-  
-  .change .bar3 {
-    transform: rotate(45deg) translate(-8px, -8px);
+      }
+      
+    }
+    
+      
+
+    
+
+      .menu-icon{
+        position: absolute;
+        right: 1em;
+        top: 1em;
+      }
+    
+    
+    ul{
+      width: 100%;
+      height: 70%;
+      padding-top: 5em;
+      display: flex;
+      flex-direction: column;
+      place-content: space-between;
+      
+
+      li{
+        
+        margin: 0 auto;
+      
+        a{
+            font-size: 2em;
+            text-decoration: none;
+            color: $primary-color;
+        }
+    }
+
+    }
+    
   }
+
+  
   
   
   

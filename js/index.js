@@ -8,17 +8,33 @@ function stickyFunction() {
   
   if (window.pageYOffset > sticky) {
     
-    console.log("world")
     navbar.classList.add("sticky");
   } 
   else {
-    console.log("hello")
     navbar.classList.remove("sticky");
   }
 }
 
 
 
-function crossFunc(x) {
-  x.classList.toggle("change");
+function crossFunc() {
+
+  
+  var navlist = document.getElementById("nav-list-bar");
+  
+  navlist.style.display = "none";
+
+  
+
+
+
+  
+}
+
+function opFunc(){
+
+  var navlist = document.getElementById("nav-list-bar");
+    navlist.style.display = "block";
+  
+  
 }

@@ -66,3 +66,19 @@
         }
     }
 }
+
+.contact-icon {
+    width: 3em;
+    height: 3em;
+    padding: 0.5em;
+    border-radius: 50%;
+    background-color: $primary-color;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+
+    svg{
+        
+        color: $secondary-color;
+    }
+}
