@@ -3,9 +3,21 @@
 
 
 
+.top-poster{
+    height: 30%;
+    width: 100%;
+    overflow: hidden;
 
-header{
-    height: 6em;
+
+    img{
+        width: 100%;
+    }
+}
+
+#headr{
+    overflow: hidden;
+    background-color: $secondary-color;
+    height: 5em;
     margin: auto 0;
     display: flex;
     place-content: space-between;
@@ -16,6 +28,17 @@ header{
     }
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .main-main-section {
+    padding-top: 6em;
+  }
+
+ 
 
 .main-main-section{
     text-align: center;

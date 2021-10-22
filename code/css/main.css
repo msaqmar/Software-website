@@ -1,14 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-.top-poster {
-  width: 100%;
-}
-.top-poster img {
-  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 footer {
@@ -25,11 +19,13 @@ footer {
   height: 5px;
   background-color: #6C63FF;
   margin: 0.5em 0;
+  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
 .change .bar1 {
-  transform: rotate(-45deg) translate(-9px, 6px);
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+          transform: rotate(-45deg) translate(-9px, 6px);
 }
 
 .change .bar2 {
@@ -37,24 +33,51 @@ footer {
 }
 
 .change .bar3 {
-  transform: rotate(45deg) translate(-8px, -8px);
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+          transform: rotate(45deg) translate(-8px, -8px);
 }
 
-header {
-  height: 6em;
+.top-poster {
+  height: 30%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.top-poster img {
+  width: 100%;
+}
+
+#headr {
+  overflow: hidden;
+  background-color: white;
+  height: 5em;
   margin: auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   place-content: space-between;
   padding: 1em;
 }
-header img {
+
+#headr img {
   height: 90%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .main-main-section {
+  padding-top: 6em;
 }
 
 .main-main-section {
   text-align: center;
   padding: 2em;
 }
+
 .main-main-section img {
   width: 60%;
   border-radius: 3em;
@@ -64,11 +87,14 @@ header img {
   text-align: center;
   padding: 2em;
 }
+
 .main-second-section .products {
   padding: 1em;
   margin: 0 auto;
   width: 80%;
 }
+
 .main-second-section .products img {
   width: 100%;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
