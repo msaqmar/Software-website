@@ -1,19 +1,19 @@
-window.onscroll = function() {stickyFunction()};
+// window.onscroll = function() {stickyFunction()};
 
-function stickyFunction() {
+// function stickyFunction() {
   
-  var navbar = document.getElementById("headr");
+//   var navbar = document.getElementById("headr");
   
-  var sticky = navbar.offsetTop;
+//   var sticky = navbar.offsetTop;
   
-  if (window.pageYOffset > sticky) {
+//   if (window.pageYOffset > sticky) {
     
-    navbar.classList.add("sticky");
-  } 
-  else {
-    navbar.classList.remove("sticky");
-  }
-}
+//     navbar.classList.add("sticky");
+//   } 
+//   else {
+//     navbar.classList.remove("sticky");
+//   }
+// }
 
 
 

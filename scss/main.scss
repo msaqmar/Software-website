@@ -4,7 +4,7 @@
 
 
 .top-poster{
-    height: 30vh;
+    height: 50vh;
     width: 100%;
     overflow: hidden;
     background-image: url(../../images/posterlogo.png);
@@ -27,15 +27,15 @@
     }
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+// .sticky {
+//     position: fixed;
+//     top: 0;
+//     width: 100%;
+//   }
 
-  .sticky + .main-main-section {
-    padding-top: 6em;
-  }
+//   .sticky + .main-main-section {
+//     padding-top: 6em;
+//   }
 
  
 
@@ -146,7 +146,7 @@
 
 @media screen and (min-width: 800px) {
     .top-poster{
-        height: 50vh;
+        height: 80vh;
     }
 
     .main-main-section{
