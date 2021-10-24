@@ -1,11 +1,17 @@
 .menu-icon {
     display: inline-block;
     cursor: pointer;
-    width: 2.5em;
+    width: 3em;
+    transition: 0.1s linear;
 
     svg{
+      margin: auto 0;
       color: $primary-color;
       width: 100%;
+    }
+
+    &:hover{
+      transform: scale(1.2,1.2);
     }
    
     
@@ -15,35 +21,25 @@
 
 
   .nav-list {
-    display: none;
     position:fixed;
-    
     top: 0;
-    left: 0;
+    left: 100%;
     background-color: $secondary-color;
     width: 100%;
     height: 100vh;
     z-index: 999;
+    font-weight: bold;
 
-     animation: open-nav 0.2s linear;
+     transition: 0.2s linear;
 
-    @keyframes open-nav {
-      from{
-        width: 0;
-  
-      }
-      to{
-        width: 100%;
-  
-      }
-      
-    }
+    
     
       
 
     
 
       .menu-icon{
+        width: 2em;
         position: absolute;
         right: 1em;
         top: 1em;
@@ -56,17 +52,22 @@
       padding-top: 5em;
       display: flex;
       flex-direction: column;
-      place-content: space-between;
       
 
       li{
         
         margin: 0 auto;
+        padding-top: 2em;
       
         a{
             font-size: 2em;
             text-decoration: none;
             color: $primary-color;
+            transition: 0.1s linear;
+
+            &:hover{
+              font-size: 2.5em;
+            }
         }
     }
 
@@ -74,6 +75,41 @@
     
   }
 
+  .navlist{
+    display: none;
+    padding-top: 1em;
+    
+
+    div{
+      display: flex;
+      
+      
+
+      li{
+        list-style: none;
+        padding: 0 2em;
+        
+        
+
+        a{
+          text-decoration: none;
+          color: $primary-color;
+        }
+      }
+    }
+  }
+
+
+  @media screen and (min-width: 800px) {
+    .navlist{
+      display: block;
+    }
+
+    .nav-list, .menu-icon{
+      display: none;
+    }
+    
+  }
   
   
   

@@ -17,12 +17,14 @@ function stickyFunction() {
 
 
 
+
+
 function crossFunc() {
 
   
   var navlist = document.getElementById("nav-list-bar");
   
-  navlist.style.display = "none";
+  navlist.style.left = "100%";
 
   
 
@@ -34,7 +36,10 @@ function crossFunc() {
 function opFunc(){
 
   var navlist = document.getElementById("nav-list-bar");
-    navlist.style.display = "block";
+
+    navlist.style.left = 0;
   
   
 }
+
+
