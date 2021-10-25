@@ -1,22 +1,3 @@
-// window.onscroll = function() {stickyFunction()};
-
-// function stickyFunction() {
-  
-//   var navbar = document.getElementById("headr");
-  
-//   var sticky = navbar.offsetTop;
-  
-//   if (window.pageYOffset > sticky) {
-    
-//     navbar.classList.add("sticky");
-//   } 
-//   else {
-//     navbar.classList.remove("sticky");
-//   }
-// }
-
-
-
 
 
 function crossFunc() {
