@@ -3,6 +3,7 @@
 $primary-color: #6C63FF;
 $secondary-color: white;
 $third-color: black;
+$forth-color: rgb(134, 130, 130);
 
 *{
     margin: 0;
@@ -29,4 +30,8 @@ ul{
 
 footer{
     text-align: center;
+    background-color: $forth-color;
+    color: $third-color;
+    padding: 1rem;
+    font-size: 0.7rem;
 }

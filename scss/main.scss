@@ -4,12 +4,29 @@
 
 
 .top-poster{
-    height: 50vh;
+    height: 80vh;
     width: 100%;
     overflow: hidden;
-    background-image: url(../../images/posterlogo.png);
-    background-size: cover;
-    background-position: center;
+    background-color: $third-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .top-poster-content{
+        
+    transform: translate(-50%,-50%);
+        width: 10%;
+        height: 10%;
+
+        img{
+            width: 100%;
+        }
+        h1{
+            font-size: 1rem;
+            color: $primary-color;
+            text-align: center;
+        }
+    }
 
 }
 
