@@ -1,0 +1,126 @@
+.about-top-poster{
+
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: 
+            linear-gradient(
+                to right,
+                rgba(black,0.9),
+                rgba(rgb(85, 83, 83),0.5)
+            ),
+            url('../../images/office.jpg') center top;
+        background-size: cover;
+
+        h1{
+            color: $primary-color;
+            font-weight: bold;
+            font-size: 3rem;
+            text-align: center;
+            position: relative;
+            top: 40%;
+        }
+        div{
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 80vh;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            span{
+                text-align: center;
+                color: $secondary-color;
+            }
+            svg{
+                width: 20%;
+                margin: 0 auto;
+                color: $secondary-color;
+            }
+        }
+}
+
+
+.about-main-section{
+
+        padding: 1rem;
+        text-align: center;
+        height: 100vh;
+        background-color: $third-color;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    
+    div{
+        margin: auto 0;
+        
+        
+        
+        h1{
+            font-size: 3rem;
+            font-weight: bold;
+            color: $primary-color;
+        }
+        p{
+            padding: 1rem;
+            color: $secondary-color;
+            font-size: 1.5rem;
+            span{
+                font-weight: bold;
+                color: $primary-color;
+                
+            }
+        }
+    }
+}
+
+
+#about-second-section{
+   
+    background: 
+    linear-gradient(
+        to right,
+        rgba(black,0.9),
+        rgba(rgb(85, 83, 83),0.5)
+    ),
+    url('../../images/vision.jpg') center top;
+    background-size: cover; 
+    
+}
+
+.about-third-section{
+    padding: 1rem;
+    height: 100%;
+    background-color: $forth-color;
+    display: flex;
+    justify-content: center;
+
+    div{
+        
+        margin: auto 0;
+        width: 90%;
+        img{
+            width: 100%;
+        }
+
+        div{
+            
+        text-align: center;
+            margin: 0 auto;
+        h1{
+            padding: 1rem;
+            font-size: 2rem;
+            font-weight: bold;
+            color: $secondary-color;
+        }
+        p{
+            color: $primary-color;
+        }
+    }
+    }
+
+}
+
+#about-forth-section{
+    background-color: $third-color;
+}

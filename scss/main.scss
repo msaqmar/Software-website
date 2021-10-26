@@ -1,5 +1,6 @@
 @import 'config';
 @import 'menu';
+@import 'about';
 
 
 
@@ -30,7 +31,7 @@
 
 }
 
-#headr{
+.headr{
     overflow: hidden;
     background-color: $secondary-color;
     height: 4em;
