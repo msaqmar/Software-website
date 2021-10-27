@@ -76,11 +76,11 @@
             background: 
             linear-gradient(
                 to right,
-                rgba(rgb(255, 255, 255),0.7),
-                rgba(rgb(255, 255, 255),0.7)
+                rgba(rgb(255, 255, 255),0.8),
+                rgba(rgb(255, 255, 255),0.8)
             ),
             url('../../images/smart.jpg') center top;
-        background-size: cover;
+            background-size: cover;
             color: $primary-color;
             padding: 1rem;
             span{
@@ -91,16 +91,31 @@
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            width: 60%;
+            width: 70%;
             
             margin: 0 auto;
             
             li{
                 list-style-type: none;
                 padding: 1rem;
+                width: 30%;
 
                 svg{
-                    width: 1.5rem;
+                    width: 70%;
+                }
+            }
+            div{
+                li{
+                    width: 100%;
+                    margin: 0;
+                    svg{
+                        width: 10%;
+
+                    }
+                    span{
+                        display: inline-block;
+                        font-size: 1rem;
+                    }
                 }
             }
         }
@@ -127,6 +142,12 @@
                 .contact-info-div{
                     margin: 0 auto;
                     width: 70%;
+
+                    li{
+                        svg{
+                            width: 100%;
+                        }
+                    }
                 }
             }
         }
