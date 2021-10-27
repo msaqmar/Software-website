@@ -28,8 +28,8 @@ footer {
 }
 
 .menu-icon svg {
-  margin: auto 0;
-  color: #6C63FF;
+  padding-top: 0.5rem;
+  color: #3F2AB2;
   width: 100%;
 }
 
@@ -79,7 +79,7 @@ footer {
 .nav-list ul li a {
   font-size: 2em;
   text-decoration: none;
-  color: #6C63FF;
+  color: #3F2AB2;
   -webkit-transition: 0.1s linear;
   transition: 0.1s linear;
 }
@@ -109,7 +109,7 @@ footer {
 
 .navlist div li a {
   text-decoration: none;
-  color: #6C63FF;
+  color: #3F2AB2;
   -webkit-transition: 0.1s linear;
   transition: 0.1s linear;
 }
@@ -117,8 +117,8 @@ footer {
 .navlist div li a:hover {
   font-size: 1rem;
   padding: 0.5rem;
-  border-top: 1px solid #6C63FF;
-  border-bottom: 1px solid #6C63FF;
+  border-top: 1px solid #3F2AB2;
+  border-bottom: 1px solid #3F2AB2;
 }
 
 @media screen and (min-width: 800px) {
@@ -137,6 +137,10 @@ footer {
   width: 100%;
 }
 
+#about-headr .navlist {
+  top: 0;
+}
+
 .about-top-poster {
   height: 100vh;
   width: 100%;
@@ -147,12 +151,12 @@ footer {
 }
 
 .about-top-poster h1 {
-  color: #6C63FF;
+  color: white;
   font-weight: bold;
   font-size: 3rem;
   text-align: center;
   position: relative;
-  top: 40%;
+  top: 50%;
 }
 
 .about-top-poster div {
@@ -203,7 +207,7 @@ footer {
 .about-main-section div h1 {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #6C63FF;
+  color: #3F2AB2;
 }
 
 .about-main-section div p {
@@ -214,7 +218,7 @@ footer {
 
 .about-main-section div p span {
   font-weight: bold;
-  color: #6C63FF;
+  color: #3F2AB2;
 }
 
 #about-second-section {
@@ -236,6 +240,13 @@ footer {
 }
 
 .about-third-section div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: auto 0;
   width: 90%;
 }
@@ -257,7 +268,7 @@ footer {
 }
 
 .about-third-section div div p {
-  color: #6C63FF;
+  color: #3F2AB2;
 }
 
 #about-forth-section {
@@ -270,6 +281,204 @@ footer {
   }
   .about-main-section div {
     width: 50%;
+  }
+  .about-main-section div h1 {
+    font-size: 3rem;
+  }
+  .about-main-section div p {
+    font-size: 1.5rem;
+  }
+  .about-third-section div {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .about-third-section div img {
+    width: 50%;
+  }
+  .about-third-section div div {
+    margin: auto 0;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #about-forth-section div {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  #about-forth-section div div {
+    margin: auto 0;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#contact-headr {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 999;
+}
+
+#contact-headr .navlist {
+  top: 0;
+}
+
+.contact-page {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(63, 42, 178, 0.8)), to(rgba(63, 42, 178, 0.8))), url("../../images/begin.jpg") top;
+  background: linear-gradient(to right, rgba(63, 42, 178, 0.8), rgba(63, 42, 178, 0.8)), url("../../images/begin.jpg") top;
+  background-size: cover;
+}
+
+.contact-page .contact-side-text {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-page .contact-side-text h1 {
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 5rem;
+  color: white;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  -webkit-transform: rotateZ(180deg);
+          transform: rotateZ(180deg);
+}
+
+.contact-page .contact-body-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  padding: 1rem;
+}
+
+.contact-page .contact-body-section form {
+  width: 100%;
+  padding: 5rem 0;
+}
+
+.contact-page .contact-body-section form ::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.589);
+}
+
+.contact-page .contact-body-section form :-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.589);
+}
+
+.contact-page .contact-body-section form ::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.589);
+}
+
+.contact-page .contact-body-section form ::placeholder {
+  color: rgba(255, 255, 255, 0.589);
+}
+
+.contact-page .contact-body-section form span {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.contact-page .contact-body-section form input, .contact-page .contact-body-section form textarea {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  border-bottom: 0.1rem solid white;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.contact-page .contact-body-section .contact-info {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))), url("../../images/smart.jpg") center top;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../../images/smart.jpg") center top;
+  background-size: cover;
+  color: #3F2AB2;
+  padding: 1rem;
+}
+
+.contact-page .contact-body-section .contact-info span {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.contact-page .contact-body-section .contact-info .contact-info-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contact-page .contact-body-section .contact-info .contact-info-div li {
+  list-style-type: none;
+  padding: 1rem;
+}
+
+.contact-page .contact-body-section .contact-info .contact-info-div li svg {
+  width: 1.5rem;
+}
+
+@media screen and (min-width: 800px) {
+  .contact-page {
+    height: 100vh;
+  }
+  .contact-page .contact-body-section {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .contact-page .contact-body-section form {
+    width: 60%;
+    margin: auto 1rem;
+  }
+  .contact-page .contact-body-section .contact-info {
+    padding: 1rem;
+    width: 30%;
+    height: 50%;
+    margin: auto 1rem;
+  }
+  .contact-page .contact-body-section .contact-info .contact-info-div {
+    margin: 0 auto;
+    width: 70%;
   }
 }
 
@@ -300,7 +509,7 @@ footer {
 
 .top-poster .top-poster-content h1 {
   font-size: 0.7rem;
-  color: #6C63FF;
+  color: #3F2AB2;
   text-align: center;
 }
 
@@ -358,7 +567,7 @@ footer {
 }
 
 .main-main-section h1 {
-  color: #6C63FF;
+  color: #3F2AB2;
   font-weight: bold;
 }
 
@@ -391,7 +600,7 @@ footer {
 
 .main-about-us .about-div h1 {
   font-weight: bold;
-  color: #6C63FF;
+  color: #3F2AB2;
 }
 
 .main-second-section {
@@ -402,7 +611,7 @@ footer {
 }
 
 .main-second-section h1 {
-  color: #6C63FF;
+  color: #3F2AB2;
   font-weight: bold;
 }
 
@@ -432,7 +641,7 @@ footer {
   height: 3em;
   padding: 0.7em;
   border-radius: 50%;
-  background-color: #6C63FF;
+  background-color: #3F2AB2;
   position: fixed;
   bottom: 1em;
   right: 1em;
@@ -461,7 +670,7 @@ footer {
   height: 2.5em;
   padding: 0.5em;
   border-radius: 50%;
-  background-color: #6C63FF;
+  background-color: #3F2AB2;
   margin: 0.5em;
   -webkit-transition: 0.1s linear;
   transition: 0.1s linear;

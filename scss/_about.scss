@@ -3,6 +3,12 @@
     top: 0;
     background-color: rgba(255, 255, 255, 0.74);
     width: 100%;
+
+    .navlist{
+        // position: fixed;
+        top: 0;
+        // display: block;
+    }
 }
 
 
@@ -21,12 +27,12 @@
         background-size: cover;
 
         h1{
-            color: $primary-color;
+            color: $secondary-color;
             font-weight: bold;
             font-size: 3rem;
             text-align: center;
             position: relative;
-            top: 40%;
+            top: 50%;
         }
         div{
             width: 20%;
@@ -104,6 +110,8 @@
     justify-content: center;
 
     div{
+        display: flex;
+        flex-direction: column;
         
         margin: auto 0;
         width: 90%;
@@ -137,6 +145,9 @@
 @media screen and (min-width: 800px){
 
     .about-top-poster{
+        // h1{
+        //     top: 50%;
+        // }
         div{
             svg{
                 width: 10%;
@@ -147,6 +158,43 @@
     .about-main-section{
         div{
             width: 50%;
+
+            h1{
+                font-size: 3rem;
+            }
+            p{
+                font-size: 1.5rem;
+            }
         }
     }
+
+    .about-third-section{
+        div{
+            
+            flex-direction: row;
+            img{
+                width: 50%;
+            }
+
+            div{
+                margin: auto 0;
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+
+    #about-forth-section{
+        div{
+            flex-direction: row-reverse;
+            div{
+                margin: auto 0;
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+
 }

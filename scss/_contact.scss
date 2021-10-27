@@ -1,0 +1,137 @@
+#contact-headr{
+    position: fixed;
+    top: 0;
+    background-color: $secondary-color;
+    width: 100%;
+    z-index: 999;
+
+    .navlist{
+        top: 0;
+        
+    }
+}
+
+.contact-page{
+    height: 100%;
+    display: flex;
+    background: 
+            linear-gradient(
+                to right,
+                rgba(rgb(63, 42, 178),0.8),
+                rgba(rgb(63, 42, 178),0.8)
+            ),
+            url('../../images/begin.jpg') top;
+        background-size: cover;
+    // background-color: $primary-color;
+
+
+    .contact-side-text{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        
+        h1{
+            text-align: center;
+            padding: 1rem;
+            font-weight: bold;
+            font-size: 5rem;
+            color: $secondary-color;
+            // opacity: 70%;
+            writing-mode: vertical-rl;
+            transform: rotateZ(180deg);
+            
+        }
+    }
+
+    .contact-body-section{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        padding: 1rem;
+
+
+        form{
+            width: 100%;
+            padding: 5rem 0;
+            ::placeholder{
+                color: rgba(255, 255, 255, 0.589);
+            }
+            span{
+                color: $secondary-color;
+                margin-bottom: 1rem;
+                font-size: 2rem;
+            }
+            input, textarea{
+                background: transparent;
+                border-radius: 0;
+                border: none;
+                border-bottom: 0.1rem solid white;
+                margin-bottom: 1rem;
+                color: $secondary-color;
+            }
+            
+        }
+
+        .contact-info{
+            background: 
+            linear-gradient(
+                to right,
+                rgba(rgb(255, 255, 255),0.7),
+                rgba(rgb(255, 255, 255),0.7)
+            ),
+            url('../../images/smart.jpg') center top;
+        background-size: cover;
+            color: $primary-color;
+            padding: 1rem;
+            span{
+                margin-bottom: 1rem;
+                font-size: 1.5rem;
+            }
+        .contact-info-div{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 60%;
+            
+            margin: 0 auto;
+            
+            li{
+                list-style-type: none;
+                padding: 1rem;
+
+                svg{
+                    width: 1.5rem;
+                }
+            }
+        }
+    }
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .contact-page{
+        height: 100vh;
+        .contact-body-section{
+
+            flex-direction: row;
+
+            form{
+                width: 60%;
+                margin: auto 1rem;
+            }
+            .contact-info{
+                padding: 1rem;
+                width: 30%;
+                height: 50%;
+                margin: auto 1rem;
+                .contact-info-div{
+                    margin: 0 auto;
+                    width: 70%;
+                }
+            }
+        }
+
+        
+    }
+
+}

@@ -53,7 +53,7 @@ tl.fromTo('#main-para-p', {y: 100, opacity: 0}, {y: 0, opacity: '100%'});
 
 tl2.fromTo('.social-media-icons', {x: -100}, {x: 0});
 
-tl3.fromTo('#about-img', {x: 100, opacity: 0}, {x: 0, opacity: '100%'})
+tl3.fromTo('#about-img', {y: 100, opacity: 0}, {y: 0, opacity: '100%'})
 tl3.fromTo('#about-h1', {x: -100, opacity: 0}, {x: 0, opacity: '100%'})
 tl3.fromTo('#about-p', {x: -100, opacity: 0}, {x: 0, opacity: '100%'})
 
