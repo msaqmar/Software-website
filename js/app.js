@@ -44,7 +44,7 @@ let tl4 = gsap.timeline({
 
 
 tl.fromTo('#sidelogo', {x: -500}, {x: 0})
-tl.fromTo('.navlist', {y: 1000}, {y: 0})
+tl.fromTo('#navlist', {y: 1000}, {y: 0})
 
 tl.fromTo('#main-img', {x: -100, opacity: 0}, {x: 0, opacity: '100%'})
 tl.fromTo('#main-para-h1', {y: 100, opacity: 0}, {y: 0, opacity: '100%'});
