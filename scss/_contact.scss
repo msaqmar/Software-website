@@ -123,7 +123,9 @@
     }
 }
 
-@media screen and (min-width: 800px) {
+
+
+@media screen and (min-width: 800px) and (max-width: 1100px) {
     .contact-page{
         height: 100vh;
         .contact-body-section{
@@ -137,7 +139,39 @@
             .contact-info{
                 padding: 1rem;
                 width: 30%;
-                height: 50%;
+                margin: auto 1rem;
+                .contact-info-div{
+                    margin: 0 auto;
+                    width: 100%;
+
+                    li{
+                        svg{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+        
+    }
+
+}
+
+@media screen and (min-width: 1100px) {
+    .contact-page{
+        height: 100vh;
+        .contact-body-section{
+
+            flex-direction: row;
+
+            form{
+                width: 60%;
+                margin: auto 1rem;
+            }
+            .contact-info{
+                padding: 1rem;
+                width: 30%;
                 margin: auto 1rem;
                 .contact-info-div{
                     margin: 0 auto;
@@ -154,5 +188,5 @@
 
         
     }
-
 }
+

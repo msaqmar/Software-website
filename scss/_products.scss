@@ -1,0 +1,117 @@
+#products-headr{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.74);
+    z-index: 999;
+    .navlist{
+        top: 0;
+    }
+}
+
+.products-main-section{
+    
+    
+
+    .products-div-1{
+        height: 50vh;
+        background: 
+            linear-gradient(
+                to right,
+                rgba(rgb(63, 42, 178),0.5),
+                rgba(rgb(63, 42, 178),0.9)
+            ),url('../../images/trading1.jpg');
+    background-position: center;
+    background-size: cover;
+        .product1-h1{
+            padding: 1rem;
+            background-color: rgba(255, 255, 255, 0.74);
+            position: relative;
+            float: left;
+            top: 30%;
+            color: $primary-color;
+            font-size: 3rem;
+            
+        }
+
+        
+
+        
+
+        .product1-h2{
+            width: 100%;
+            margin: 0;
+            padding: 1rem;
+            text-align: right;
+            color: $secondary-color;
+            position: relative;
+            top: 70%;
+        }
+    }
+
+    .product1-content{
+        background-color: $secondary-color;
+        padding: 1rem;
+        font-size: 1.2rem;
+        
+    }
+
+    .benifits-div{
+        margin: 1rem;
+
+        .product1-h3{
+            color: $primary-color;
+            padding: 1rem;
+            font-weight: bold;
+        }
+        
+        .benifits-content{
+
+            width: 70%;
+            margin: 0 auto;
+
+            .benifits{
+                text-align: center;
+                color: $primary-color;
+                img{
+                    width: 50%;
+                }
+            }
+        }
+
+        
+    
+    
+    }
+
+    .features-div{
+        h1{
+            color: $primary-color;
+            padding: 1rem;
+            font-weight: bold;
+        }
+
+        ul{
+            color: $primary-color;
+            li{
+                list-style-type: square;
+                padding: 0.5rem;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+    
+    .benifits-content{
+        width: 80%;
+        display: flex;
+        place-content: space-around;
+
+        .benifits{
+            width: 30%;
+        }
+
+    }
+}
