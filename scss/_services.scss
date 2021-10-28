@@ -1,0 +1,53 @@
+#service-headr{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.74);
+    z-index: 999;
+    .navlist{
+        top: 0;
+    }
+}
+
+
+.service-top-poster{
+    background: 
+            linear-gradient(
+                to right,
+                rgba(rgb(63, 42, 178),0.5),
+                rgba(rgb(63, 42, 178),0.9)
+            ),url('../../images/service-poster.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    h1{
+        position: relative;
+        text-align: center;
+        top: 50%;
+        color: $secondary-color;
+    }
+}
+
+.service-main-section{
+    width: 100%;
+    padding: 1rem;
+    margin: 0 auto;
+    .services{
+
+        img{
+            width: 100%;
+            
+        }
+
+        .services-div{
+            background-color: $secondary-color;
+            padding: 1rem;
+            width: 80%;
+            position: relative;
+            top: -50px;
+            margin: 0 auto;
+            
+        }
+
+    }
+}
