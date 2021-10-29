@@ -2,28 +2,20 @@ let tl = gsap.timeline({
     scrollTrigger:{
         trigger: '.top-poster',
         start: '0%',
-        end: '100%',
+        end: '50%',
         scrub: 1,
         
 
     },
 });
 
-let tl2 = gsap.timeline({
-    scrollTrigger:{
-        trigger: '.top-poster',
-        start: '50%',
-        end: '100%',
-        scrub: 1,
 
-    },
-});
 
 let tl3 = gsap.timeline({
     scrollTrigger:{
-        trigger: '.main-main-section',
-        start: '0%',
-        end: '100%',
+        trigger: '.top-poster',
+        start: '50%',
+        end: '120%',
         scrub: 1,
 
     },
@@ -43,19 +35,20 @@ let tl4 = gsap.timeline({
 
 
 
-tl.fromTo('#sidelogo', {x: -500}, {x: 0})
-tl.fromTo('#navlist', {y: 1000}, {y: 0})
+tl.fromTo('#sidelogo', {x: -100, opacity: 0}, {x: 0, opacity: '100%'})
 
 tl.fromTo('#main-img', {x: -100, opacity: 0}, {x: 0, opacity: '100%'})
 tl.fromTo('#main-para-h1', {y: 100, opacity: 0}, {y: 0, opacity: '100%'});
 tl.fromTo('#main-para-p', {y: 100, opacity: 0}, {y: 0, opacity: '100%'});
+tl.fromTo('#main-page-btn1', {y: 100, opacity: 0}, {y: 0, opacity: '100%'});
 
 
-tl2.fromTo('.social-media-icons', {x: -100}, {x: 0});
+tl.fromTo('.social-media-icons', {x: -100}, {x: 0});
 
 tl3.fromTo('#about-img', {y: 100, opacity: 0}, {y: 0, opacity: '100%'})
 tl3.fromTo('#about-h1', {x: -100, opacity: 0}, {x: 0, opacity: '100%'})
 tl3.fromTo('#about-p', {x: -100, opacity: 0}, {x: 0, opacity: '100%'})
+tl3.fromTo('#main-page-btn2', {y: 100, opacity: 0}, {y: 0, opacity: '100%'})
 
 
 

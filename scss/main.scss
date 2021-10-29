@@ -9,7 +9,21 @@
 
 
 .top-poster{
-    height: 100vh;
+
+    animation: firstanime 3s ease 1;
+
+    @keyframes firstanime {
+        0%{
+            height: 100vh;
+        }
+        100%{
+            height: 60vh;
+        }
+        
+    }
+
+
+    height: 60vh;
     width: 100%;
     overflow: hidden;
     background: 
@@ -41,23 +55,38 @@
         }
     }
     #scroll{
-        width: 20%;
+        width: 30%;
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 85%;
-            left: 50%;
+            top: 55%;
+            left: 80%;
             transform: translate(-50%,-50%);
             span{
                 text-align: center;
                 color: $secondary-color;
+                font-size: 0.7rem;
             }
             svg{
-                width: 20%;
+                width: 1rem;
                 margin: 0 auto;
                 color: $secondary-color;
             }
 
+            animation: scrolldown 1s ease infinite;
+
+
+        }
+        @keyframes scrolldown {
+            0% {
+                top: 55%;
+                
+            }
+            
+            100%{
+                top: 57%;
+            }
+            
         }
 
    
@@ -227,7 +256,7 @@
 }
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
     .top-poster{
         // height: 80vh;
 
@@ -237,9 +266,7 @@
         }
 
         #scroll{
-            svg{
-                width: 10%;
-            }
+            left: 85%;
         }
 
     }
