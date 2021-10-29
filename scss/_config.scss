@@ -18,7 +18,10 @@ ul{
     list-style: none;
 }
 
-// ////////////////  COLORS  ////////////////////////////
+
+.active{
+    
+}
 
 
 
@@ -30,9 +33,63 @@ ul{
 
 footer{
     text-align: center;
-    background-color: $forth-color;
+    background-color: rgb(245, 236, 236);
     color: $third-color;
     padding: 1rem;
-    font-size: 0.7rem;
+
+    .footer-copy{
+        
+        font-size: 0.7rem;
+    }
+    
+
+    .footer-address-div{
+        padding: 1rem;
+        width: 80%;
+        margin: 0 auto;
+        svg{
+            width: 5%;
+        }
+    }
+
+    .footer-social-media{
+        padding: 1rem;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        li{
+            list-style-type: none;
+            
+            svg{
+                width: 40%;
+            }
+        }
+    }
+
+    .footer-number{
+        width: 50%;
+        padding: 1rem;
+        margin: 0 auto;
+
+        svg{
+            width: 5%;
+        }
+    }
+    
+}
+
+
+@media screen and (min-width: 800px) {
+
+    .footer-div{
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+
+        div{
+            margin: auto 0;
+            width: 30%;
+        }
+    }
     
 }
