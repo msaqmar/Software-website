@@ -3,7 +3,7 @@
 $primary-color: #3F2AB2;
 $secondary-color: white;
 $third-color: black;
-$forth-color: rgb(46, 45, 45);
+$forth-color: rgb(206, 198, 198);
 
 *{
     margin: 0;
@@ -19,10 +19,18 @@ ul{
 }
 
 
-.active{
-    
-}
+.viewmore-btn{
+    background-color: $primary-color;
+    color: $secondary-color;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    transition: 0.1s linear;
 
+    &:hover{
+        transform: scale(1.1, 1.1);
+    }
+}
 
 
 

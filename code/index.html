@@ -46,11 +46,11 @@
         <div class="navlist" id="#navlist">
             <div>
         
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">PRODUCTS</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a class="active" href="#">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
                 
             </div>
         </div>
@@ -76,11 +76,11 @@
         </div>
     <ul>
         
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT US</a></li>
-        <li><a href="#">PRODUCTS</a></li>
-        <li><a href="#">SERVICES</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a class="active" href="#">HOME</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="products.html">PRODUCTS</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
         
     </ul>
 </div>
@@ -98,7 +98,7 @@
         <div class="main-para">
             <h1 id="main-para-h1">Company name / Some Info</h1>
             <p id="main-para-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit magni, saepe quae repellat non alias ipsam earum doloremque consequuntur debitis!</p>
-            <button class="btn"></button>
+            <button class="viewmore-btn" onclick="window.location.href = 'services.html'">Get Started</button>
         </div>
     </div>
 
@@ -109,6 +109,8 @@
     <div class="about-div">
         <h1 id="about-h1">About US</h1>
         <p id="about-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dicta autem a ipsa nobis cupiditate aliquam in aspernatur architecto nulla.</p>
+        <button class="viewmore-btn" onclick="window.location.href = 'about.html'">See more</button>
+        
     </div>
     
     
@@ -167,7 +169,7 @@
 
 
 
-<div class="contact-icon">
+<div class="contact-icon" onclick="window.location.href = 'contact.html'">
     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chat-fill" viewBox="0 0 16 16">
         <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
       </svg>

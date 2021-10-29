@@ -55,12 +55,25 @@
 }
 
 
+#about-main-section{
+    background: 
+            linear-gradient(
+                to right,
+                rgba(black,0.7),
+                rgba(black,0.5)
+            ),
+            url('../../images/mission.jpg') center top;
+        background-size: cover;
+}
+
 .about-main-section{
+
+    
 
         padding: 1rem;
         text-align: center;
         height: 100vh;
-        background-color: $third-color;
+        // background-color: $third-color;
         overflow: hidden;
         display: flex;
         justify-content: center;
@@ -130,7 +143,7 @@
             color: $secondary-color;
         }
         p{
-            color: $primary-color;
+            color: $forth-color;
         }
     }
     }
@@ -138,7 +151,7 @@
 }
 
 #about-forth-section{
-    background-color: $forth-color;
+    background-color: $primary-color;
 }
 
 

@@ -11,6 +11,21 @@ ul {
   list-style: none;
 }
 
+.viewmore-btn {
+  background-color: #3F2AB2;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  -webkit-transition: 0.1s linear;
+  transition: 0.1s linear;
+}
+
+.viewmore-btn:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
 footer {
   text-align: center;
   background-color: #f5ecec;
@@ -106,16 +121,16 @@ footer .footer-number svg {
 }
 
 .nav-list .menu-icon {
-  width: 2em;
+  width: 2rem;
   position: absolute;
-  right: 1em;
-  top: 1em;
+  right: 1rem;
+  top: 1rem;
 }
 
 .nav-list ul {
   width: 100%;
   height: 70%;
-  padding-top: 5em;
+  padding-top: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -127,11 +142,11 @@ footer .footer-number svg {
 
 .nav-list ul li {
   margin: 0 auto;
-  padding-top: 2em;
+  padding-top: 2rem;
 }
 
 .nav-list ul li a {
-  font-size: 2em;
+  font-size: 2rem;
   text-decoration: none;
   color: #3F2AB2;
   -webkit-transition: 0.1s linear;
@@ -140,6 +155,11 @@ footer .footer-number svg {
 
 .nav-list ul li a:hover {
   font-size: 2.5em;
+}
+
+.nav-list ul li .active {
+  font-size: 3rem;
+  color: black;
 }
 
 .navlist {
@@ -171,6 +191,13 @@ footer .footer-number svg {
 .navlist div li a:hover {
   font-size: 1rem;
   padding: 0.5rem;
+  border-top: 1px solid #3F2AB2;
+  border-bottom: 1px solid #3F2AB2;
+}
+
+.navlist div li .active {
+  padding: 0.5rem;
+  font-weight: bold;
   border-top: 1px solid #3F2AB2;
   border-bottom: 1px solid #3F2AB2;
 }
@@ -241,11 +268,16 @@ footer .footer-number svg {
   color: white;
 }
 
+#about-main-section {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.5))), url("../../images/mission.jpg") center top;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("../../images/mission.jpg") center top;
+  background-size: cover;
+}
+
 .about-main-section {
   padding: 1rem;
   text-align: center;
   height: 100vh;
-  background-color: black;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -323,11 +355,11 @@ footer .footer-number svg {
 }
 
 .about-third-section div div p {
-  color: #3F2AB2;
+  color: #cec6c6;
 }
 
 #about-forth-section {
-  background-color: #2e2d2d;
+  background-color: #3F2AB2;
 }
 
 @media screen and (min-width: 800px) {
