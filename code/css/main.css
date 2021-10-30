@@ -71,7 +71,7 @@ footer .footer-number {
 }
 
 footer .footer-number svg {
-  width: 5%;
+  width: 8%;
 }
 
 @media screen and (min-width: 800px) {
@@ -85,6 +85,9 @@ footer .footer-number svg {
   .footer-div div {
     margin: auto 0;
     width: 30%;
+  }
+  .footer-div .footer-number svg {
+    width: 7%;
   }
 }
 
@@ -538,7 +541,7 @@ footer .footer-number svg {
 
 .contact-page .contact-body-section .contact-info .contact-info-div li {
   list-style-type: none;
-  padding: 1rem;
+  padding: 5%;
   width: 30%;
 }
 
@@ -610,6 +613,9 @@ footer .footer-number svg {
   .contact-page .contact-body-section .contact-info .contact-info-div {
     margin: 0 auto;
     width: 70%;
+  }
+  .contact-page .contact-body-section .contact-info .contact-info-div li {
+    padding: 8%;
   }
   .contact-page .contact-body-section .contact-info .contact-info-div li svg {
     width: 100%;
