@@ -25,7 +25,7 @@ let tl4 = gsap.timeline({
     scrollTrigger:{
         trigger: '.main-about-us',
         start: '0%',
-        end: '150%',
+        end: '100%',
         scrub: 1,
 
     },
@@ -49,6 +49,7 @@ tl3.fromTo('#about-img', {y: 100, opacity: 0}, {y: 0, opacity: '100%'})
 tl3.fromTo('#about-h1', {x: -100, opacity: 0}, {x: 0, opacity: '100%'})
 tl3.fromTo('#about-p', {x: -100, opacity: 0}, {x: 0, opacity: '100%'})
 tl3.fromTo('#main-page-btn2', {y: 100, opacity: 0}, {y: 0, opacity: '100%'})
+tl3.fromTo('.back-to-top', {x: 100, opacity: 0}, {x:0, opacity: '100%'})
 
 
 

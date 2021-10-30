@@ -27,6 +27,31 @@ ul {
           transform: scale(1.1, 1.1);
 }
 
+.back-to-top {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background-color: transparent;
+  position: fixed;
+  top: 70%;
+  right: 1em;
+  -webkit-transition: 0.1s linear;
+  transition: 0.1s linear;
+  z-index: 999;
+}
+
+.back-to-top svg {
+  width: 100%;
+  color: #3F2AB2;
+  -webkit-transition: 0.1s linear;
+  transition: 0.1s linear;
+}
+
+.back-to-top svg:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
 footer {
   text-align: center;
   background-color: #f5ecec;

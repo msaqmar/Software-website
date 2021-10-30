@@ -33,6 +33,32 @@ ul{
     }
 }
 
+.back-to-top{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: transparent;
+    position: fixed;
+    top: 70%;
+    right: 1em;
+    transition: 0.1s linear;
+    z-index: 999;
+
+
+    svg{
+        width: 100%;
+        color: $primary-color;
+        transition: 0.1s linear;
+        &:hover{
+        
+            transform: scale(1.2,1.2);
+            
+        }
+    }
+
+    
+}
+
 
 
 
