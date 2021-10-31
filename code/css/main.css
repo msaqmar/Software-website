@@ -32,7 +32,7 @@ ul {
   top: 70%;
   right: 1em;
   transition: 0.1s linear;
-  z-index: 999;
+  z-index: 998;
 }
 .back-to-top svg {
   width: 100%;
@@ -120,6 +120,12 @@ footer .footer-number svg {
   z-index: 999;
   font-weight: bold;
   transition: 0.2s linear;
+}
+.nav-list .menu-sidelogo {
+  width: 30%;
+  position: absolute;
+  left: 5%;
+  top: 1%;
 }
 .nav-list .menu-icon {
   width: 2rem;
@@ -783,7 +789,7 @@ footer .footer-number svg {
 
 .main-main-section {
   text-align: center;
-  padding: 3em;
+  padding: 1rem;
   width: 90%;
   margin: 0 auto;
   display: flex;
@@ -791,8 +797,8 @@ footer .footer-number svg {
 }
 .main-main-section #main-img {
   width: 100%;
-  border-radius: 3em;
-  padding: 1em;
+  border-radius: 2rem;
+  padding: 1rem;
 }
 .main-main-section h1 {
   color: #DC143C;
@@ -802,7 +808,7 @@ footer .footer-number svg {
 .main-about-us {
   height: 100%;
   width: 90%;
-  padding: 3em;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -810,6 +816,7 @@ footer .footer-number svg {
 }
 .main-about-us img {
   width: 100%;
+  padding: 1rem;
   border-radius: 2rem;
 }
 .main-about-us .about-div {
@@ -855,7 +862,7 @@ footer .footer-number svg {
   bottom: 1em;
   right: 1em;
   transition: 0.1s linear;
-  z-index: 999;
+  z-index: 998;
 }
 .contact-icon svg {
   color: white;
@@ -865,6 +872,7 @@ footer .footer-number svg {
 }
 
 .social-media-icons {
+  display: none;
   position: fixed;
   bottom: 1rem;
   left: 0;
@@ -926,5 +934,9 @@ footer .footer-number svg {
   }
   .main-second-section #sec-sec .products {
     width: 30%;
+  }
+
+  .social-media-icons {
+    display: block;
   }
 }/*# sourceMappingURL=main.css.map */

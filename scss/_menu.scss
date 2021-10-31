@@ -1,4 +1,9 @@
 .menu-icon {
+
+    
+  
+
+    
     display: inline-block;
     cursor: pointer;
     width: 3em;
@@ -32,6 +37,13 @@
     font-weight: bold;
 
      transition: 0.2s linear;
+
+     .menu-sidelogo{
+       width: 30%;
+       position: absolute;
+       left: 5%;
+       top: 1%;
+     }
 
     
     
