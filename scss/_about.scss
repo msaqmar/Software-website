@@ -22,14 +22,14 @@
     background: 
             linear-gradient(
                 to right,
-                rgba(black,0.9),
-                rgba(rgb(85, 83, 83),0.5)
+                rgba(black,0.8),
+                rgba(black,0.8)
             ),
             url('../../images/office.jpg') center top;
         background-size: cover;
 
         h1{
-            color: $secondary-color;
+            color: $primary-color;
             font-weight: bold;
             font-size: 3rem;
             text-align: center;
@@ -144,7 +144,7 @@
             padding: 1rem;
             font-size: 2rem;
             font-weight: bold;
-            color: $secondary-color;
+            color: $primary-color;
         }
         p{
             color: $forth-color;
@@ -155,7 +155,10 @@
 }
 
 #about-forth-section{
-    background-color: $primary-color;
+    background-color: $secondary-color;
+    p{
+        color: $third-color;
+    }
 }
 
 

@@ -17,8 +17,8 @@
     background: 
             linear-gradient(
                 to right,
-                rgba(rgb(63, 42, 178),0.8),
-                rgba(rgb(63, 42, 178),0.8)
+                rgba($primary-color,0.8),
+                rgba(black,0.8)
             ),
             url('../../images/begin.jpg') top;
         background-size: cover;

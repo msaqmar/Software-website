@@ -14,8 +14,8 @@
     background: 
             linear-gradient(
                 to right,
-                rgba(rgb(63, 42, 178),0.5),
-                rgba(rgb(63, 42, 178),0.9)
+                rgba($primary-color,0.5),
+                rgba(black,0.9)
             ),url('../../images/service-poster.jpg');
     background-position: center;
     background-size: cover;

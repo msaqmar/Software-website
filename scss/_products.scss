@@ -18,8 +18,8 @@
         background: 
             linear-gradient(
                 to right,
-                rgba(rgb(63, 42, 178),0.5),
-                rgba(rgb(63, 42, 178),0.9)
+                rgba($primary-color,0.5),
+                rgba(black,0.9)
             ),url('../../images/trading1.jpg');
     background-position: center;
     background-size: cover;
@@ -45,6 +45,7 @@
             padding: 1rem;
             text-align: right;
             color: $secondary-color;
+            font-weight: bold;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
