@@ -12,8 +12,8 @@ let tl = gsap.timeline({
 let tl5 = gsap.timeline({
     scrollTrigger:{
         trigger: 'body',
-        start: '50%',
-        end: '55%',
+        start: '10%',
+        end: '15%',
         scrub: 1,
 
     },
@@ -42,7 +42,7 @@ let tl4 = gsap.timeline({
     scrollTrigger:{
         trigger: '.main-about-us',
         start: '0%',
-        end: '100%',
+        end: '50%',
         scrub: 1,
 
     },

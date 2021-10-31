@@ -18,8 +18,8 @@
         background: 
             linear-gradient(
                 to right,
-                rgba($primary-color,0.5),
-                rgba(black,0.9)
+                rgba(black,0.9),
+                rgba($primary-color,0.7)
             ),url('../../images/trading1.jpg');
     background-position: center;
     background-size: cover;
@@ -96,6 +96,8 @@
 
         ul{
             color: $primary-color;
+            
+
             li{
                 list-style-type: square;
                 padding: 0.5rem;
@@ -106,6 +108,18 @@
 }
 
 @media screen and (min-width: 800px) {
+
+    .features-div{
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            place-content: space-around;
+
+            li{
+                width: 30%;
+            }
+        }
+    }
     
     .benifits-content{
         width: 80%;
