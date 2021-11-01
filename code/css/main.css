@@ -378,9 +378,10 @@ footer .footer-number svg {
 }
 
 .about-third-section {
+  margin: 1rem;
   padding: 1rem;
   height: 100%;
-  background-color: black;
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -403,6 +404,7 @@ footer .footer-number svg {
 
 .about-third-section div img {
   width: 100%;
+  border-radius: 2rem;
 }
 
 .about-third-section div div {
@@ -418,14 +420,6 @@ footer .footer-number svg {
 }
 
 .about-third-section div div p {
-  color: #cec6c6;
-}
-
-#about-forth-section {
-  background-color: white;
-}
-
-#about-forth-section p {
   color: black;
 }
 
@@ -736,6 +730,48 @@ footer .footer-number svg {
           justify-content: flex-end;
 }
 
+.products-main-section #products-div-2 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(220, 20, 60, 0.7))), url("../../images/manufacture.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(220, 20, 60, 0.7)), url("../../images/manufacture.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.products-main-section #products-div-3 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(220, 20, 60, 0.7))), url("../../images/manpower.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(220, 20, 60, 0.7)), url("../../images/manpower.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.products-main-section #products-div-4 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(220, 20, 60, 0.7))), url("../../images/inspect.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(220, 20, 60, 0.7)), url("../../images/inspect.jpg");
+  background-position: bottom;
+  background-size: cover;
+}
+
+.products-main-section #products-div-5 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(220, 20, 60, 0.7))), url("../../images/car4.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(220, 20, 60, 0.7)), url("../../images/car4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.products-main-section #products-div-6 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(220, 20, 60, 0.7))), url("../../images/real estate.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(220, 20, 60, 0.7)), url("../../images/real estate.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.products-main-section #products-div-7 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(220, 20, 60, 0.7))), url("../../images/custom.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(220, 20, 60, 0.7)), url("../../images/custom.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
 .products-main-section .product1-content {
   background-color: white;
   padding: 1rem;
@@ -847,7 +883,8 @@ footer .footer-number svg {
 
 .service-main-section .services .service-img {
   height: 50vh;
-  background: url("../../images/uidesign.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(5, 5, 5, 0.4))), url("../../images/uidesign.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(5, 5, 5, 0.4)), url("../../images/uidesign.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -858,13 +895,14 @@ footer .footer-number svg {
   text-align: center;
   margin: auto 0;
   display: none;
+  font-size: 1.5rem;
 }
 
 .service-main-section .services .service-img:hover {
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(5, 5, 5, 0.9))), url("../../images/uidesign.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(5, 5, 5, 0.9)), url("../../images/uidesign.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(5, 5, 5, 0.7))), url("../../images/uidesign.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(5, 5, 5, 0.7)), url("../../images/uidesign.jpg");
   color: white;
   background-position: center;
   background-size: cover;
@@ -872,6 +910,62 @@ footer .footer-number svg {
 
 .service-main-section .services .service-img:hover .service-img-h1 {
   display: block;
+}
+
+.service-main-section .services #service-img-2 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(5, 5, 5, 0.4))), url("../../images/mobiledevelop.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(5, 5, 5, 0.4)), url("../../images/mobiledevelop.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.service-main-section .services #service-img-2:hover {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(5, 5, 5, 0.7))), url("../../images/mobiledevelop.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(5, 5, 5, 0.7)), url("../../images/mobiledevelop.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.service-main-section .services #service-img-3 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(5, 5, 5, 0.4))), url("../../images/webdevlop.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(5, 5, 5, 0.4)), url("../../images/webdevlop.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.service-main-section .services #service-img-3:hover {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(5, 5, 5, 0.7))), url("../../images/webdevlop.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(5, 5, 5, 0.7)), url("../../images/webdevlop.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.service-main-section .services #service-img-4 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(5, 5, 5, 0.4))), url("../../images/digibrand.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(5, 5, 5, 0.4)), url("../../images/digibrand.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.service-main-section .services #service-img-4:hover {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(5, 5, 5, 0.7))), url("../../images/digibrand.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(5, 5, 5, 0.7)), url("../../images/digibrand.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.service-main-section .services #service-img-5 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(5, 5, 5, 0.4))), url("../../images/digimarket.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(5, 5, 5, 0.4)), url("../../images/digimarket.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.service-main-section .services #service-img-5:hover {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(5, 5, 5, 0.7))), url("../../images/digimarket.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(5, 5, 5, 0.7)), url("../../images/digimarket.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .service-main-section .services .services-div {

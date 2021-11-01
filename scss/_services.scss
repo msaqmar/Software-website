@@ -40,7 +40,12 @@
 
         .service-img{
             height: 50vh;
-            background: url('../../images/uidesign.jpg');
+            background: 
+                            linear-gradient(
+                                    to right,
+                                    rgba(rgb(0, 0, 0),0.4),
+                                    rgba(rgb(5, 5, 5),0.4)
+                                    ),url('../../images/uidesign.jpg');
             background-position: center;
             background-size: cover;
             &-h1{
@@ -49,6 +54,7 @@
                 text-align: center;
                 margin: auto 0;
                 display: none;
+                font-size: 1.5rem;
                 
     
            
@@ -61,8 +67,8 @@
                 background: 
                             linear-gradient(
                                     to right,
-                                    rgba(rgb(0, 0, 0),0.5),
-                                    rgba(rgb(5, 5, 5),0.9)
+                                    rgba(rgb(0, 0, 0),0.7),
+                                    rgba(rgb(5, 5, 5),0.7)
                                     ),url('../../images/uidesign.jpg');
                 
                 color: $secondary-color;
@@ -77,6 +83,91 @@
                 
             }
             
+        }
+
+        #service-img-2{
+            background: 
+                            linear-gradient(
+                                    to right,
+                                    rgba(rgb(0, 0, 0),0.4),
+                                    rgba(rgb(5, 5, 5),0.4)
+                                    ),url('../../images/mobiledevelop.jpg');
+            background-position: center;
+            background-size: cover;
+
+            &:hover{
+                background: 
+                            linear-gradient(
+                                    to right,
+                                    rgba(rgb(0, 0, 0),0.7),
+                                    rgba(rgb(5, 5, 5),0.7)
+                                    ),url('../../images/mobiledevelop.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+        }
+        #service-img-3{
+            background: 
+                            linear-gradient(
+                                    to right,
+                                    rgba(rgb(0, 0, 0),0.4),
+                                    rgba(rgb(5, 5, 5),0.4)
+                                    ),url('../../images/webdevlop.jpg');
+            background-position: center;
+            background-size: cover;
+
+            &:hover{
+                background: 
+                            linear-gradient(
+                                    to right,
+                                    rgba(rgb(0, 0, 0),0.7),
+                                    rgba(rgb(5, 5, 5),0.7)
+                                    ),url('../../images/webdevlop.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+        }
+        #service-img-4{
+            background: 
+                            linear-gradient(
+                                    to right,
+                                    rgba(rgb(0, 0, 0),0.4),
+                                    rgba(rgb(5, 5, 5),0.4)
+                                    ),url('../../images/digibrand.jpg');
+            background-position: center;
+            background-size: cover;
+
+            &:hover{
+                background: 
+                            linear-gradient(
+                                    to right,
+                                    rgba(rgb(0, 0, 0),0.7),
+                                    rgba(rgb(5, 5, 5),0.7)
+                                    ),url('../../images/digibrand.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+        }
+        #service-img-5{
+            background: 
+                            linear-gradient(
+                                    to right,
+                                    rgba(rgb(0, 0, 0),0.4),
+                                    rgba(rgb(5, 5, 5),0.4)
+                                    ),url('../../images/digimarket.jpg');
+            background-position: center;
+            background-size: cover;
+
+            &:hover{
+                background: 
+                            linear-gradient(
+                                    to right,
+                                    rgba(rgb(0, 0, 0),0.7),
+                                    rgba(rgb(5, 5, 5),0.7)
+                                    ),url('../../images/digimarket.jpg');
+                background-position: center;
+                background-size: cover;
+            }
         }
 
         .services-div{

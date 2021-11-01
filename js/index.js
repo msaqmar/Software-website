@@ -19,8 +19,13 @@ function opFunc(){
   var navlist = document.getElementById("nav-list-bar");
 
     navlist.style.left = 0;
+
+    
   
   
 }
+
+
+
 
 
