@@ -22,6 +22,8 @@
             height: 60vh;
 
             
+
+            
         }
         
     }
@@ -44,6 +46,18 @@
         position: relative;
         top: 50%;
         left: 50%;
+
+        animation: firstanime2 3s ease 1;
+
+        @keyframes firstanime2 {
+            0%{
+                left: -20%;
+            }
+            100%{
+                left: 50%;
+            }
+            
+        }
         
     transform: translate(-50%,-50%);
         width: 20%;
@@ -126,6 +140,21 @@
     margin: 1rem auto;
     display: flex;
     flex-direction: column;
+    
+    animation: mainsectionanim 4s ease 1;
+
+    @keyframes mainsectionanim {
+        0%{
+            padding-top: 20rem;
+            opacity: 0;
+        }
+
+        100%{
+            padding-top: 1rem;
+            opacity: 100%;
+        }
+        
+    }
 
    
 

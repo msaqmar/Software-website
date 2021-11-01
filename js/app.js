@@ -58,10 +58,10 @@ tl.fromTo('#sidelogo', {x: -100, opacity: 0}, {x: 0, opacity: '100%'})
 
 tl6.fromTo('.contact-icon', {y: 100, opacity: 0}, {y:0, opacity: '100%'})
 
-tl.fromTo('#main-img', {x: -100, opacity: 0}, {x: 0, opacity: '100%'})
-tl.fromTo('#main-para-h1', {y: 100, opacity: 0}, {y: 0, opacity: '100%'});
-tl.fromTo('#main-para-p', {y: 100, opacity: 0}, {y: 0, opacity: '100%'});
-tl.fromTo('#main-page-btn1', {y: 100, opacity: 0}, {y: 0, opacity: '100%'});
+// tl.fromTo('#main-img', {x: -100, opacity: 0}, {x: 0, opacity: '100%'})
+// tl.fromTo('#main-para-h1', {y: 100, opacity: 0}, {y: 0, opacity: '100%'});
+// tl.fromTo('#main-para-p', {y: 100, opacity: 0}, {y: 0, opacity: '100%'});
+// tl.fromTo('#main-page-btn1', {y: 100, opacity: 0}, {y: 0, opacity: '100%'});
 
 
 tl.fromTo('.social-media-icons', {x: -100, opacity: 0}, {x:0, opacity: '100%'});
