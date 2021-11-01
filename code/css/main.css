@@ -113,7 +113,10 @@ footer .footer-number svg {
     width: 30%;
   }
   .footer-div .footer-number svg {
-    width: 7%;
+    width: 5%;
+  }
+  .footer-div .footer-number span {
+    padding: 0.5rem;
   }
 }
 
@@ -1202,6 +1205,13 @@ footer .footer-number svg {
 .main-main-section h1 {
   color: #DC143C;
   font-weight: bold;
+  padding: 1rem;
+}
+
+.main-main-section p {
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 1.2rem;
 }
 
 .main-about-us {
@@ -1234,6 +1244,12 @@ footer .footer-number svg {
 .main-about-us .about-div h1 {
   font-weight: bold;
   color: #DC143C;
+}
+
+.main-about-us .about-div p {
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 1.2rem;
 }
 
 .main-second-section {

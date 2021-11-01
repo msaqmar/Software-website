@@ -171,6 +171,14 @@
     h1{
         color: $primary-color;
         font-weight: bold;
+        padding: 1rem;
+        
+    }
+    p{
+        font-weight: bold;
+        padding: 1rem;
+        font-size: 1.2rem;
+        
     }
 
 }
@@ -198,6 +206,12 @@
         h1{
             font-weight: bold;
             color: $primary-color;
+        }
+        p{
+            font-weight: bold;
+            padding: 1rem;
+            font-size: 1.2rem;
+            
         }
         
     }
