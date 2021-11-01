@@ -8,6 +8,7 @@
 
 
 
+
 .top-poster{
 
     animation: firstanime 3s ease 1;
@@ -67,7 +68,6 @@
             width: 100%;
         }
         h1{
-            font-size: 0.7rem;
             color: $primary-color;
             text-align: center;
         }
@@ -172,12 +172,13 @@
         color: $primary-color;
         font-weight: bold;
         padding: 1rem;
+        font-size: 1rem;
         
     }
     p{
         font-weight: bold;
-        padding: 1rem;
-        font-size: 1.2rem;
+        font-size: 0.7rem;
+
         
     }
 
@@ -206,11 +207,11 @@
         h1{
             font-weight: bold;
             color: $primary-color;
+            font-size: 1rem;
         }
         p{
             font-weight: bold;
-            padding: 1rem;
-            font-size: 1.2rem;
+            font-size: 0.7rem;
             
         }
         
@@ -225,6 +226,11 @@
     h1{
         color: $primary-color;
         font-weight: bold;
+        font-size: 1rem;
+    }
+    p{
+        font-weight: bold;
+        font-size: 0.7rem;
     }
 
     #sec-sec{
@@ -235,10 +241,17 @@
             padding: 1rem;
             margin: 0 auto; 
             width: 100%;
+            transition: 0.1s linear;
 
             img{
                 width: 90%;
                 padding: 1rem;
+            }
+
+            &:hover{
+                background-color: rgba(212, 212, 212, 0.377);
+                transform: scale(1.1,1.1);
+                cursor: pointer;
             }
         }
     }
@@ -265,6 +278,11 @@
             color: $primary-color;
             font-weight: bold;
             padding: 1rem;
+            font-size: 1rem;
+        }
+        p{
+            font-weight: bold;
+            font-size: 0.7rem;
         }
     }
 }
@@ -329,6 +347,8 @@
 
 
 @media screen and (min-width: 900px) {
+    
+
     .top-poster{
         // height: 80vh;
 
@@ -347,29 +367,53 @@
     .main-main-section{
         flex-direction: row;
         // height: 80vh;
-
+        h1{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1rem;
+        }
         
 
         #main-img{
             width: 60%;
+            
+            
         }
         .main-para{
             margin: auto 0;
+           
         }
     }
 
     .main-about-us{
         flex-direction: row-reverse;
-
+        
         img{
             width: 50%;
         }
         .about-div{
             margin: auto 0;
+
+            h1{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+    
         }
     }
 
     .main-second-section{
+
+        h1{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+
 
         #sec-sec{
             flex-direction: row;
@@ -388,6 +432,13 @@
         width: 90%;
         margin: 0 auto;
         display: flex;
+        h1{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+
 
         &-div{
             padding: 1rem;
