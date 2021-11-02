@@ -618,15 +618,21 @@ footer .footer-number svg {
   font-weight: bold;
 }
 .products-main-section .benifits-div .benifits-content {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
+  padding: 1rem;
 }
 .products-main-section .benifits-div .benifits-content .benifits {
   text-align: center;
   color: #DC143C;
+  padding: 1rem;
 }
 .products-main-section .benifits-div .benifits-content .benifits img {
-  width: 50%;
+  width: 30%;
+  padding: 1rem;
+}
+.products-main-section .benifits-div .benifits-content .benifits p {
+  color: black;
 }
 .products-main-section .features-div h1 {
   color: #DC143C;
@@ -641,7 +647,7 @@ footer .footer-number svg {
   padding: 0.5rem;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   .features-div ul {
     display: flex;
     flex-wrap: wrap;
@@ -655,6 +661,7 @@ footer .footer-number svg {
     width: 80%;
     display: flex;
     place-content: space-around;
+    flex-wrap: wrap;
   }
   .benifits-content .benifits {
     width: 30%;
@@ -944,7 +951,7 @@ footer .footer-number svg {
 }
 .main-main-section #main-img {
   width: 100%;
-  border-radius: 2rem;
+  border-radius: 50%;
   padding: 1rem;
 }
 .main-main-section h1 {
@@ -1108,7 +1115,7 @@ footer .footer-number svg {
     font-size: 1rem;
   }
   .main-main-section #main-img {
-    width: 60%;
+    width: 50%;
   }
   .main-main-section .main-para {
     margin: auto 0;

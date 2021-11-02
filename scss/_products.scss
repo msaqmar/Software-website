@@ -131,14 +131,20 @@
         
         .benifits-content{
 
-            width: 70%;
+            width: 100%;
             margin: 0 auto;
+            padding: 1rem;
 
             .benifits{
                 text-align: center;
                 color: $primary-color;
+                padding: 1rem;
                 img{
-                    width: 50%;
+                    width: 30%;
+                    padding: 1rem;
+                }
+                p{
+                    color: $third-color;
                 }
             }
         }
@@ -168,7 +174,7 @@
 
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
 
     .features-div{
         ul{
@@ -185,7 +191,7 @@
     .benifits-content{
         width: 80%;
         display: flex;
-        place-content: space-between;
+        place-content: space-around;
         flex-wrap: wrap;
 
         .benifits{
