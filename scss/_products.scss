@@ -185,7 +185,8 @@
     .benifits-content{
         width: 80%;
         display: flex;
-        place-content: space-around;
+        place-content: space-between;
+        flex-wrap: wrap;
 
         .benifits{
             width: 30%;
