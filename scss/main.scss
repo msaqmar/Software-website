@@ -164,7 +164,7 @@
  
     #main-img{
         width: 100%;
-        border-radius: 50%;
+        border-radius: 2rem;
         padding: 1rem;
 
     }
@@ -172,12 +172,12 @@
         color: $primary-color;
         font-weight: bold;
         padding: 1rem;
-        font-size: 1rem;
+        font-size: 1.5rem;
         
     }
     p{
         font-weight: bold;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
 
         
     }
@@ -207,11 +207,11 @@
         h1{
             font-weight: bold;
             color: $primary-color;
-            font-size: 1rem;
+            font-size: 1.5rem;
         }
         p{
             font-weight: bold;
-            font-size: 0.7rem;
+            font-size: 0.9rem;
             
         }
         
@@ -226,11 +226,11 @@
     h1{
         color: $primary-color;
         font-weight: bold;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     p{
         font-weight: bold;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     #sec-sec{
@@ -278,11 +278,11 @@
             color: $primary-color;
             font-weight: bold;
             padding: 1rem;
-            font-size: 1rem;
+            font-size: 1.5rem;
         }
         p{
             font-weight: bold;
-            font-size: 0.7rem;
+            font-size: 0.9rem;
         }
     }
 }

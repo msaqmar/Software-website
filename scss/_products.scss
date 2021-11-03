@@ -42,6 +42,7 @@
             width: 100%;
             height: 60%;
             margin: 0;
+            font-size: 2rem;
             padding: 1rem;
             text-align: right;
             color: $secondary-color;
@@ -116,16 +117,19 @@
     .product1-content{
         background-color: $secondary-color;
         padding: 1rem;
-        font-size: 1.2rem;
+        font-size: 0.9rem;
         
     }
 
     .benifits-div{
         margin: 1rem;
+        text-align: center;
 
         .product1-h3{
             color: $primary-color;
+            text-align: left;
             padding: 1rem;
+            font-size: 1.5rem;
             font-weight: bold;
         }
         
@@ -134,9 +138,10 @@
             width: 100%;
             margin: 0 auto;
             padding: 1rem;
+            text-align: center;
 
             .benifits{
-                text-align: center;
+                
                 color: $primary-color;
                 padding: 1rem;
                 img{
@@ -145,6 +150,7 @@
                 }
                 p{
                     color: $third-color;
+                    font-size: 0.9rem;
                 }
             }
         }
@@ -158,6 +164,7 @@
         h1{
             color: $primary-color;
             padding: 1rem;
+            font-size: 1.5rem;
             font-weight: bold;
         }
 
@@ -168,6 +175,7 @@
             li{
                 list-style-type: square;
                 padding: 0.5rem;
+                font-size: 0.9rem;
             }
         }
     }
@@ -176,7 +184,14 @@
 
 @media screen and (min-width: 900px) {
 
+    .product1-content{
+        font-size: 1rem;
+    }
+
     .features-div{
+        h1{
+            font-size: 2rem;
+        }
         ul{
             display: flex;
             flex-wrap: wrap;
@@ -184,19 +199,26 @@
 
             li{
                 width: 30%;
+                font-size: 1rem;
             }
         }
     }
     
-    .benifits-content{
-        width: 80%;
-        display: flex;
-        place-content: space-around;
-        flex-wrap: wrap;
-
-        .benifits{
-            width: 30%;
+    .benifits-div{
+        .product1-h3{
+            font-size: 2rem;
         }
 
+        .benifits-content{
+            width: 80%;
+            display: flex;
+            place-content: space-around;
+            flex-wrap: wrap;
+
+            .benifits{
+                width: 30%;
+            }
+
+        }
     }
 }

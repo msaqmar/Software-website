@@ -175,20 +175,33 @@
             padding: 1rem;
             width: 100%;
             margin: 0 auto;
+            text-align: center;
 
             h1, h3{
                 color: $primary-color;
                 padding: 1rem;
+                text-align: left;
+                font-weight: bold;
             }
-            .p-li{
+            h1{
+                font-size: 1.5rem;
+            }
+            h3{
+                font-size: 1.3rem;
+            }
+            p{
                 list-style-type: square;
                 padding: 1rem;
+                font-size: 0.9rem;
+                text-align: left;
             }
 
                 ul{
                     
                     li{
-                        list-style-type: disc;
+                        text-align: left;
+                        font-size: 0.9rem;
+                        list-style-type: square;
                     
                     }
                 }
@@ -215,6 +228,21 @@
             position: relative;
             left: -50px;
             top: 50px;
+
+            h1{
+                font-size: 2rem;
+            }
+            h3{
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+            ul{
+                li{
+                    font-size: 1rem;
+                }
+            }
         }
     }
 
