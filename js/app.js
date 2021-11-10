@@ -34,7 +34,7 @@ let tl4 = gsap.timeline({
     scrollTrigger:{
         trigger: '.main-main-section',
         start: '0%',
-        end: '100%',
+        end: '50%',
         scrub: 1,
 
     },
@@ -65,20 +65,20 @@ tl3.fromTo('#main-page-btn2', {y: 100, opacity: 0}, {y: 0, opacity: '100%'})
 tl4.fromTo('#sec-h1', {y: 100, opacity: 0}, {y:0, opacity: '100%'})
 tl4.fromTo('#sec-p', {y: 100, opacity: 0}, {y:0, opacity: '100%'})
 
-tl4.fromTo('#products-img-1',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
-tl4.fromTo('#products-text-1',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
+// tl4.fromTo('#products-img-1',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
+// tl4.fromTo('#products-text-1',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
 
-tl4.fromTo('#products-img-2',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
-tl4.fromTo('#products-text-2',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
+// tl4.fromTo('#products-img-2',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
+// tl4.fromTo('#products-text-2',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
 
-tl4.fromTo('#products-img-3',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
-tl4.fromTo('#products-text-3',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
+// tl4.fromTo('#products-img-3',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
+// tl4.fromTo('#products-text-3',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
 
-tl4.fromTo('#products-img-4',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
-tl4.fromTo('#products-text-4',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
+// tl4.fromTo('#products-img-4',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
+// tl4.fromTo('#products-text-4',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
 
-tl4.fromTo('#products-img-5',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
-tl4.fromTo('#products-text-5',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
+// tl4.fromTo('#products-img-5',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
+// tl4.fromTo('#products-text-5',{x: -100, opacity: 0}, {x:0, opacity: '100%'})
 
 
 
