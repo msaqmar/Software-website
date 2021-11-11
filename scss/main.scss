@@ -134,10 +134,20 @@
  
 
 .main-main-section{
+
+    background: 
+                linear-gradient(
+                    to right,
+                    rgba(white,0.5),
+                    rgba(white,0.5)
+                ),
+                url('../../images/main-back-5.jpg') bottom;
+            background-size: cover;
+
     text-align: center;
     padding: 1rem;
-    width: 90%;
-    margin: 1rem auto;
+    width: 100%;
+    margin: 0;
     display: flex;
     flex-direction: column;
     
@@ -186,11 +196,12 @@
 
 
 .main-about-us{
-    width: 90%;
+    width: 100%;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
     
     margin: 0 auto;
 
@@ -220,57 +231,142 @@
 .main-second-section{
     
     text-align: center;
-    padding: 1rem;
-    width: 90%;
-    margin: 0 auto;
-    h1{
+    padding: 1rem 0;
+    width: 100%;
+    margin: 1rem auto;
+    border-top: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+    #sec-h1{
         color: $primary-color;
         font-weight: bold;
         font-size: 1.5rem;
     }
-    p{
-        font-weight: bold;
+    #sec-p{
         font-size: 0.9rem;
+        padding: 1rem;
     }
 
     #sec-sec{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        flex-grow: 1;
 
         .products{
-            padding: 1rem;
-            margin: 0 auto; 
-            width: 100%;
+            margin: 0 auto;
+            max-width: 100%;
+            min-width: 50%;
             transition: 0.1s linear;
+            place-content: space-around;
+            overflow: hidden;
 
             
-
-            
-        }
-        #products-img-1{
-            height: 50vh;
-            background: 
-            linear-gradient(
-                to right,
-                rgba(#DC143C,0.8),
-                rgba(#DC143C,0.5)
-            ),
-            url('../../images/des.jpg') center top;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-
-            h1{
-                color: $secondary-color;
+            .products-img{
                 
+                height: 50vh;
+                display: flex;
+                align-items: center;
+                
+                transition: 2s ease;
+
+                
+
+
+                &:hover{
+                    transform: scale(1.1);
+
+                    
+                }
+
+                
+
+               
             }
-            p{
-                margin: 1rem;
-                color: $secondary-color;
-                border-top: 1px solid $secondary-color;
-                border-bottom: 1px solid $secondary-color;
+            .products-text{
+                
+        
+                h1{
+                    color: $secondary-color;
+                    
+                }
+                p{
+                    margin: 1rem;
+                    padding: 1rem;
+                    color: $secondary-color;
+                    border-top: 1px solid $secondary-color;
+                    border-bottom: 1px solid $secondary-color;
+                }
             }
+            #products-img-1{
+                background: 
+                linear-gradient(
+                    to left,
+                    rgba(#DC143C,0.5),
+                    rgba(black,0.9)
+                ),
+                url('../../images/des.jpg') center;
+            background-size: cover;
+           
+            }
+            #products-img-2{
+                background: 
+                linear-gradient(
+                    to right,
+                    rgba(#DC143C,0.5),
+                    rgba(black,0.9)
+                    
+                ),
+                url('../../images/mob.jpg') center;
+            background-size: cover;
+           
+            }
+            #products-img-3{
+                background: 
+                linear-gradient(
+                    to left,
+                    rgba(#DC143C,0.5),
+                    rgba(black,0.9)
+                ),
+                url('../../images/webb.jpg') center top;
+            background-size: cover;
+           
+            }
+            #products-img-4{
+                background: 
+                linear-gradient(
+                    to right,
+                    rgba(#DC143C,0.5),
+                    rgba(black,0.9)
+                ),
+                url('../../images/soft.jpg') center top;
+            background-size: cover;
+           
+            }
+            #products-img-5{
+                background: 
+                linear-gradient(
+                    to left,
+                    rgba(#DC143C,0.5),
+                    rgba(black,0.9)
+                ),
+                url('../../images/bran.jpg') center top;
+            background-size: cover;
+           
+            }
+            #products-img-6{
+                background: 
+                linear-gradient(
+                    to right,
+                    rgba(#DC143C,0.5),
+                    rgba(black,0.9)
+                ),
+                url('../../images/mark.jpg') center top;
+            background-size: cover;
+           
+            }
+
+            
         }
+        
     }
 }
 
@@ -433,8 +529,8 @@
 
 
         #sec-sec{
-            flex-direction: row;
-            flex-wrap: wrap;
+            // flex-direction: row;
+            // flex-wrap: wrap;
             h1{
                 font-size: 2rem;
             }
@@ -470,8 +566,8 @@
         flex-direction: row-reverse;
     }
 
-    .social-media-icons{
-        display: block;
-    }
+    // .social-media-icons{
+    //     // display: block;
+    // }
     
 }
