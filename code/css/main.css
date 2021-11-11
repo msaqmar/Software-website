@@ -917,10 +917,8 @@ footer .footer-number svg {
 
 .service-main-section .services .service-img {
   height: 50vh;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(5, 5, 5, 0.4))), url("../../images/uidesign.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(5, 5, 5, 0.4)), url("../../images/uidesign.jpg");
-  background-position: center;
-  background-size: cover;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
 }
 
 .service-main-section .services .service-img-h1 {
@@ -933,17 +931,25 @@ footer .footer-number svg {
 }
 
 .service-main-section .services .service-img:hover {
-  -webkit-transition: 0.2s linear;
-  transition: 0.2s linear;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(5, 5, 5, 0.7))), url("../../images/uidesign.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(5, 5, 5, 0.7)), url("../../images/uidesign.jpg");
   color: white;
-  background-position: center;
-  background-size: cover;
 }
 
 .service-main-section .services .service-img:hover .service-img-h1 {
   display: block;
+}
+
+.service-main-section .services #service-img-1 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(5, 5, 5, 0.4))), url("../../images/uidesign.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(5, 5, 5, 0.4)), url("../../images/uidesign.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.service-main-section .services #service-img-1:hover {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(5, 5, 5, 0.7))), url("../../images/uidesign.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(5, 5, 5, 0.7)), url("../../images/uidesign.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .service-main-section .services #service-img-2 {
@@ -1047,7 +1053,7 @@ footer .footer-number svg {
     display: flex;
   }
   .services .service-img {
-    width: 80%;
+    width: 100%;
   }
   .services .services-div {
     position: relative;

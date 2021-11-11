@@ -34,20 +34,14 @@
     .services{
         width: 90%;
         margin: 0 auto;
-        // background-image: url('../../images/uiwatermark.png');
         background-position: center;
         background-size: cover;
 
         .service-img{
             height: 50vh;
-            background: 
-                            linear-gradient(
-                                    to right,
-                                    rgba(rgb(0, 0, 0),0.4),
-                                    rgba(rgb(5, 5, 5),0.4)
-                                    ),url('../../images/uidesign.jpg');
-            background-position: center;
-            background-size: cover;
+            
+            transition: 0.2s linear;
+            
             &-h1{
                 position: relative;
                 top: 50%;
@@ -63,17 +57,9 @@
 
             &:hover{
                 
-            transition: 0.2s linear;
-                background: 
-                            linear-gradient(
-                                    to right,
-                                    rgba(rgb(0, 0, 0),0.7),
-                                    rgba(rgb(5, 5, 5),0.7)
-                                    ),url('../../images/uidesign.jpg');
                 
                 color: $secondary-color;
-                background-position: center;
-                background-size: cover;
+                
 
                 .service-img-h1{
                     display: block;
@@ -83,6 +69,31 @@
                 
             }
             
+        }
+        #service-img-1{
+
+            background: 
+                            linear-gradient(
+                                    to right,
+                                    rgba(rgb(0, 0, 0),0.4),
+                                    rgba(rgb(5, 5, 5),0.4)
+                                    ),url('../../images/uidesign.jpg');
+            background-position: center;
+            background-size: cover;
+
+            &:hover{
+                
+                background: 
+                            linear-gradient(
+                                    to right,
+                                    rgba(rgb(0, 0, 0),0.7),
+                                    rgba(rgb(5, 5, 5),0.7)
+                                    ),url('../../images/uidesign.jpg');
+                background-position: center;
+                background-size: cover;
+                
+                
+            }
         }
 
         #service-img-2{
@@ -220,7 +231,7 @@
         display: flex;
 
         .service-img{
-            width: 80%;
+            width: 100%;
             
         }
 
@@ -228,6 +239,8 @@
             position: relative;
             left: -50px;
             top: 50px;
+
+
 
             h1{
                 font-size: 2rem;
