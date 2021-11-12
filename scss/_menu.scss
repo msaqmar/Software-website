@@ -78,13 +78,31 @@
             text-decoration: none;
             color: $primary-color;
             transition: 0.1s linear;
+            display: inline-block;
+            position: relative;
+            color: $primary-color;
 
-            &:hover{
-              text-decoration: underline;
+            &::after{
+              content: '';
+              position: absolute;
+              width: 100%;
+              transform: scaleX(0);
+              height: 2px;
+              bottom: 0;
+              left: 0;
+              background-color: $primary-color;
+              transform-origin: bottom right;
+              transition: transform 0.25s ease-out;
+            }
+
+            &:hover:after{
+              transform: scaleX(1);
+              transform-origin: bottom left;
             }
         }
-        .active{
-          text-decoration: underline;
+        .active::after{
+          transform: scaleX(1);
+          transform-origin: bottom left;
           font-weight: bold;
       }
       
