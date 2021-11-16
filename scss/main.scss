@@ -253,8 +253,9 @@
 
         .products{
             margin: 0 auto;
-            max-width: 100%;
-            min-width: 50%;
+            // max-width: 100%;
+            // min-width: 50%;
+            width: 100%;
             transition: 0.1s linear;
             place-content: space-around;
             overflow: hidden;
@@ -263,40 +264,50 @@
             .products-img{
                 
                 height: 50vh;
-                display: flex;
-                align-items: center;
+                width: 100%;
+                // display: flex;
+                // align-items: center;
                 
-                transition: 2s ease;
+                transition: all 2s ease;
+                position: relative;
+                // background-size: cover;
 
                 
 
 
 
-                &:hover{
-                    transform: scale(1.1);
+                // &:hover{
+                //     background-size: 100%;
 
                     
-                }
+                // }
 
                 
+                .products-text{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    width: 100%;
+                    transform: translate(-50%,-50%);
+
+                
+        
+                    h1{
+                        color: $secondary-color;
+                        
+                    }
+                    p{
+                        margin: 1rem;
+                        padding: 1rem;
+                        color: $secondary-color;
+                        border-top: 1px solid $secondary-color;
+                        border-bottom: 1px solid $secondary-color;
+                    }
+                }
 
                
             }
-            .products-text{
-                
-        
-                h1{
-                    color: $secondary-color;
-                    
-                }
-                p{
-                    margin: 1rem;
-                    padding: 1rem;
-                    color: $secondary-color;
-                    border-top: 1px solid $secondary-color;
-                    border-bottom: 1px solid $secondary-color;
-                }
-            }
+            
             #products-img-1{
                 background: 
                 linear-gradient(
@@ -305,7 +316,11 @@
                     rgba(black,0.9)
                 ),
                 url('../../images/des.jpg') center;
-            background-size: cover;
+                background-size: 100%;
+
+                &:hover{
+                    background-size: 110%;
+                }
            
             }
             #products-img-2{
@@ -317,7 +332,11 @@
                     
                 ),
                 url('../../images/mob.jpg') center;
-            background-size: cover;
+                background-size: 100%;
+
+                &:hover{
+                    background-size: 110%;
+                }
            
             }
             #products-img-3{
@@ -328,7 +347,11 @@
                     rgba(black,0.9)
                 ),
                 url('../../images/webb.jpg') center top;
-            background-size: cover;
+                background-size: 100%;
+
+                &:hover{
+                    background-size: 110%;
+                }
            
             }
             #products-img-4{
@@ -339,7 +362,11 @@
                     rgba(black,0.9)
                 ),
                 url('../../images/soft.jpg') center top;
-            background-size: cover;
+                background-size: 100%;
+
+                &:hover{
+                    background-size: 110%;
+                }
            
             }
             #products-img-5{
@@ -350,7 +377,11 @@
                     rgba(black,0.9)
                 ),
                 url('../../images/bran.jpg') center top;
-            background-size: cover;
+                background-size: 100%;
+
+                &:hover{
+                    background-size: 110%;
+                }
            
             }
             #products-img-6{
@@ -361,7 +392,11 @@
                     rgba(black,0.9)
                 ),
                 url('../../images/mark.jpg') center top;
-            background-size: cover;
+                background-size: 100%;
+
+                &:hover{
+                    background-size: 110%;
+                }
            
             }
 
@@ -541,7 +576,7 @@
             }
 
             .products{
-                width: 30%;
+                width: 50%;
             }
         }
     }
