@@ -79,7 +79,7 @@
                 rgba(black,0.7),
                 rgba(black,0.5)
             ),
-            url('../../images/mission.jpg') center top;
+            url('../../images/mission.jpg') center top fixed;
         background-size: cover;
 }
 
@@ -127,7 +127,7 @@
         rgba(black,1),
         rgba(rgb(43, 42, 42),0.5)
     ),
-    url('../../images/vision.jpg') center top;
+    url('../../images/vision.jpg') center top fixed;
     background-size: cover; 
     
 }
