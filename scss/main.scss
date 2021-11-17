@@ -141,8 +141,9 @@
                     rgba(white,0.5),
                     rgba(white,0.5)
                 ),
-                url('../../images/main-back-5.jpg') bottom;
+                url('../../images/main-back-5.jpg') bottom fixed;
             background-size: cover;
+
 
     text-align: center;
     padding: 1rem;
@@ -317,6 +318,7 @@
                 ),
                 url('../../images/des.jpg') center;
                 background-size: 100%;
+                background-repeat: no-repeat;
 
                 &:hover{
                     background-size: 110%;
@@ -333,6 +335,7 @@
                 ),
                 url('../../images/mob.jpg') center;
                 background-size: 100%;
+                background-repeat: no-repeat;
 
                 &:hover{
                     background-size: 110%;
@@ -346,11 +349,12 @@
                     rgba(#DC143C,0.5),
                     rgba(black,0.9)
                 ),
-                url('../../images/webb.jpg') center top;
-                background-size: 100%;
+                url('../../images/webb.jpg') center;
+                background-size: 200%;
+                background-repeat: no-repeat;
 
                 &:hover{
-                    background-size: 110%;
+                    background-size: 210%;
                 }
            
             }
@@ -361,11 +365,12 @@
                     rgba(#DC143C,0.5),
                     rgba(black,0.9)
                 ),
-                url('../../images/soft.jpg') center top;
-                background-size: 100%;
+                url('../../images/soft.jpg') center;
+                background-size: 200%;
+                background-repeat: no-repeat;
 
                 &:hover{
-                    background-size: 110%;
+                    background-size: 210%;
                 }
            
             }
@@ -376,11 +381,12 @@
                     rgba(#DC143C,0.5),
                     rgba(black,0.9)
                 ),
-                url('../../images/bran.jpg') center top;
-                background-size: 100%;
+                url('../../images/bran.jpg') center;
+                background-size: 200%;
+                background-repeat: no-repeat;
 
                 &:hover{
-                    background-size: 110%;
+                    background-size: 210%;
                 }
            
             }
@@ -391,11 +397,12 @@
                     rgba(#DC143C,0.5),
                     rgba(black,0.9)
                 ),
-                url('../../images/mark.jpg') center top;
-                background-size: 100%;
+                url('../../images/mark.jpg') center;
+                background-size: 200%;
+                background-repeat: no-repeat;
 
                 &:hover{
-                    background-size: 110%;
+                    background-size: 210%;
                 }
            
             }
