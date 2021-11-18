@@ -942,10 +942,6 @@ footer .footer-number svg {
   background-size: cover;
 }
 
-.service-main-section .services .service-img {
-  display: none;
-}
-
 .service-main-section .services .services-div {
   background-color: rgba(0, 0, 0, 0.514);
   border-radius: 2rem;
