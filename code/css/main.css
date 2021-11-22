@@ -930,10 +930,6 @@ footer .footer-number svg {
   color: white;
 }
 
-.service-main-section {
-  width: 100%;
-}
-
 .service-main-section .services {
   width: 100%;
   padding: 2rem;
@@ -943,7 +939,7 @@ footer .footer-number svg {
 }
 
 .service-main-section .services .services-div {
-  background-color: rgba(0, 0, 0, 0.514);
+  background-color: rgba(0, 0, 0, 0.733);
   border-radius: 2rem;
   padding: 1rem;
   width: 100%;
@@ -968,16 +964,19 @@ footer .footer-number svg {
 }
 
 .service-main-section .services .services-div p {
-  list-style-type: square;
   padding: 1rem;
   font-size: 0.9rem;
   text-align: left;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .service-main-section .services .services-div ul li {
+  border-left: 1px solid white;
+  padding: 1rem;
+  list-style-type: none;
   text-align: left;
   font-size: 0.9rem;
-  list-style-type: square;
 }
 
 #services-1 {
@@ -986,105 +985,46 @@ footer .footer-number svg {
   background-size: cover;
 }
 
+#services-2 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../images/12.jpg") center fixed;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/12.jpg") center fixed;
+  background-size: cover;
+}
+
+#services-3 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../images/13.jpg") center fixed;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/13.jpg") center fixed;
+  background-size: cover;
+}
+
+#services-4 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../images/14.jpg") center fixed;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/14.jpg") center fixed;
+  background-size: cover;
+}
+
+#services-5 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../images/15.jpg") center fixed;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/15.jpg") center fixed;
+  background-size: cover;
+}
+
 @media screen and (min-width: 800px) {
-  .services {
-    width: 100%;
-    padding-bottom: 5rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .service-main-section .services .services-div {
+    width: 60%;
+    margin: 1rem auto;
   }
-  .services .service-img {
-    display: block;
-    width: 100%;
-    margin: 1rem;
-    -webkit-transition: 0.2s linear;
-    transition: 0.2s linear;
-    position: relative;
-  }
-  .services .service-img-img {
-    width: 100%;
-    height: 100%;
-    border-radius: 2rem;
-    position: relative;
-  }
-  .services .service-img-img:hover {
-    -webkit-filter: blur(1px) grayscale(50%);
-            filter: blur(1px) grayscale(50%);
-  }
-  .services #service-img-2 {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(5, 5, 5, 0.4))), url("../../images/mobiledevelop.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(5, 5, 5, 0.4)), url("../../images/mobiledevelop.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  .services #service-img-2:hover {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(5, 5, 5, 0.7))), url("../../images/mobiledevelop.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(5, 5, 5, 0.7)), url("../../images/mobiledevelop.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  .services #service-img-3 {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(5, 5, 5, 0.4))), url("../../images/webdevlop.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(5, 5, 5, 0.4)), url("../../images/webdevlop.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  .services #service-img-3:hover {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(5, 5, 5, 0.7))), url("../../images/webdevlop.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(5, 5, 5, 0.7)), url("../../images/webdevlop.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  .services #service-img-4 {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(5, 5, 5, 0.4))), url("../../images/digibrand.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(5, 5, 5, 0.4)), url("../../images/digibrand.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  .services #service-img-4:hover {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(5, 5, 5, 0.7))), url("../../images/digibrand.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(5, 5, 5, 0.7)), url("../../images/digibrand.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  .services #service-img-5 {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(5, 5, 5, 0.4))), url("../../images/digimarket.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(5, 5, 5, 0.4)), url("../../images/digimarket.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  .services #service-img-5:hover {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(5, 5, 5, 0.7))), url("../../images/digimarket.jpg");
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(5, 5, 5, 0.7)), url("../../images/digimarket.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  .services .services-div {
-    position: relative;
-    left: -50px;
-    margin: 1rem;
-  }
-  .services .services-div h1 {
+  .service-main-section .services .services-div h1 {
     font-size: 2rem;
   }
-  .services .services-div h3 {
+  .service-main-section .services .services-div h3 {
     font-size: 1.5rem;
   }
-  .services .services-div p {
+  .service-main-section .services .services-div p {
     font-size: 1rem;
   }
-  .services .services-div ul li {
+  .service-main-section .services .services-div ul li {
     font-size: 1rem;
-  }
-  .services:nth-child(even) {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-  }
-  .services:nth-child(even) .services-div {
-    left: 50px;
   }
 }
 
