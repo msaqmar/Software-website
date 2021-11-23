@@ -974,7 +974,7 @@ footer .footer-number svg {
 .service-main-section .services .services-div ul li {
   border-left: 1px solid white;
   padding: 1rem;
-  list-style-type: none;
+  list-style-type: square;
   text-align: left;
   font-size: 0.9rem;
 }
