@@ -12,7 +12,7 @@ ul {
 }
 
 .viewmore-btn {
-  background-color: #DC143C;
+  background-color: #1261A0;
   color: white;
   padding: 0.5rem;
   margin: 1rem;
@@ -43,7 +43,7 @@ ul {
 
 .back-to-top svg {
   width: 100%;
-  color: #DC143C;
+  color: #1261A0;
   -webkit-transition: 0.1s linear;
   transition: 0.1s linear;
 }
@@ -134,7 +134,7 @@ footer .footer-number svg {
 
 .menu-icon svg {
   padding-top: 0.5rem;
-  color: #DC143C;
+  color: #1261A0;
   width: 100%;
 }
 
@@ -192,12 +192,12 @@ footer .footer-number svg {
 .nav-list ul li a {
   font-size: 1rem;
   text-decoration: none;
-  color: #DC143C;
+  color: #1261A0;
   -webkit-transition: 0.1s linear;
   transition: 0.1s linear;
   display: inline-block;
   position: relative;
-  color: #DC143C;
+  color: #1261A0;
 }
 
 .nav-list ul li a::after {
@@ -209,7 +209,7 @@ footer .footer-number svg {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #DC143C;
+  background-color: #1261A0;
   -webkit-transform-origin: bottom right;
           transform-origin: bottom right;
   -webkit-transition: -webkit-transform 0.25s ease-out;
@@ -254,7 +254,7 @@ footer .footer-number svg {
 
 .navlist div li a {
   text-decoration: none;
-  color: #DC143C;
+  color: #1261A0;
   -webkit-transition: 0.1s linear;
   transition: 0.1s linear;
 }
@@ -262,15 +262,15 @@ footer .footer-number svg {
 .navlist div li a:hover {
   font-size: 1rem;
   padding: 0.5rem;
-  border-top: 1px solid #DC143C;
-  border-bottom: 1px solid #DC143C;
+  border-top: 1px solid #1261A0;
+  border-bottom: 1px solid #1261A0;
 }
 
 .navlist div li .active {
   padding: 0.5rem;
   font-weight: bold;
-  border-top: 1px solid #DC143C;
-  border-bottom: 1px solid #DC143C;
+  border-top: 1px solid #1261A0;
+  border-bottom: 1px solid #1261A0;
 }
 
 @media screen and (min-width: 900px) {
@@ -402,7 +402,7 @@ footer .footer-number svg {
 
 .about-main-section div p span {
   font-weight: bold;
-  color: #DC143C;
+  color: #1261A0;
 }
 
 #about-second-section {
@@ -450,7 +450,7 @@ footer .footer-number svg {
   padding: 1rem;
   font-size: 1.5rem;
   font-weight: bold;
-  color: #DC143C;
+  color: #1261A0;
 }
 
 .about-third-section div div p {
@@ -528,8 +528,8 @@ footer .footer-number svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(220, 20, 60, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../../images/begin.jpg") top;
-  background: linear-gradient(to right, rgba(220, 20, 60, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/begin.jpg") top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(18, 97, 160, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../../images/begin.jpg") top;
+  background: linear-gradient(to right, rgba(18, 97, 160, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/begin.jpg") top;
   background-size: cover;
 }
 
@@ -608,7 +608,7 @@ footer .footer-number svg {
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url("../../images/smart.jpg") center top;
   background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../../images/smart.jpg") center top;
   background-size: cover;
-  color: #DC143C;
+  color: #1261A0;
   padding: 1rem;
 }
 
@@ -729,8 +729,8 @@ footer .footer-number svg {
 
 .products-main-section .products-div-1 {
   height: 50vh;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(220, 20, 60, 0.7))), url("../../images/trading1.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(220, 20, 60, 0.7)), url("../../images/trading1.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(18, 97, 160, 0.7))), url("../../images/trading1.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(18, 97, 160, 0.7)), url("../../images/trading1.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -741,7 +741,7 @@ footer .footer-number svg {
   position: relative;
   float: left;
   top: 20%;
-  color: #DC143C;
+  color: #1261A0;
   font-size: 3rem;
 }
 
@@ -767,43 +767,43 @@ footer .footer-number svg {
 }
 
 .products-main-section #products-div-2 {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(220, 20, 60, 0.7))), url("../../images/manufacture.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(220, 20, 60, 0.7)), url("../../images/manufacture.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(18, 97, 160, 0.7))), url("../../images/manufacture.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(18, 97, 160, 0.7)), url("../../images/manufacture.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .products-main-section #products-div-3 {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(220, 20, 60, 0.7))), url("../../images/manpower.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(220, 20, 60, 0.7)), url("../../images/manpower.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(18, 97, 160, 0.7))), url("../../images/manpower.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(18, 97, 160, 0.7)), url("../../images/manpower.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .products-main-section #products-div-4 {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(220, 20, 60, 0.7))), url("../../images/inspect.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(220, 20, 60, 0.7)), url("../../images/inspect.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(18, 97, 160, 0.7))), url("../../images/inspect.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(18, 97, 160, 0.7)), url("../../images/inspect.jpg");
   background-position: bottom;
   background-size: cover;
 }
 
 .products-main-section #products-div-5 {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(220, 20, 60, 0.7))), url("../../images/car4.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(220, 20, 60, 0.7)), url("../../images/car4.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(18, 97, 160, 0.7))), url("../../images/car4.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(18, 97, 160, 0.7)), url("../../images/car4.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .products-main-section #products-div-6 {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(220, 20, 60, 0.7))), url("../../images/real estate.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(220, 20, 60, 0.7)), url("../../images/real estate.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(18, 97, 160, 0.7))), url("../../images/real estate.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(18, 97, 160, 0.7)), url("../../images/real estate.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .products-main-section #products-div-7 {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(220, 20, 60, 0.7))), url("../../images/custom.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(220, 20, 60, 0.7)), url("../../images/custom.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(18, 97, 160, 0.7))), url("../../images/custom.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(18, 97, 160, 0.7)), url("../../images/custom.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -820,7 +820,7 @@ footer .footer-number svg {
 }
 
 .products-main-section .benifits-div .product1-h3 {
-  color: #DC143C;
+  color: #1261A0;
   text-align: left;
   padding: 1rem;
   font-size: 1.5rem;
@@ -835,7 +835,7 @@ footer .footer-number svg {
 }
 
 .products-main-section .benifits-div .benifits-content .benifits {
-  color: #DC143C;
+  color: #1261A0;
   padding: 1rem;
 }
 
@@ -850,14 +850,14 @@ footer .footer-number svg {
 }
 
 .products-main-section .features-div h1 {
-  color: #DC143C;
+  color: #1261A0;
   padding: 1rem;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
 .products-main-section .features-div ul {
-  color: #DC143C;
+  color: #1261A0;
 }
 
 .products-main-section .features-div ul li {
@@ -916,8 +916,8 @@ footer .footer-number svg {
 }
 
 .service-top-poster {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(220, 20, 60, 0.5)), to(rgba(0, 0, 0, 0.9))), url("../../images/service-poster.jpg") fixed;
-  background: linear-gradient(to right, rgba(220, 20, 60, 0.5), rgba(0, 0, 0, 0.9)), url("../../images/service-poster.jpg") fixed;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(18, 97, 160, 0.5)), to(rgba(0, 0, 0, 0.9))), url("../../images/service-poster.jpg") fixed;
+  background: linear-gradient(to right, rgba(18, 97, 160, 0.5), rgba(0, 0, 0, 0.9)), url("../../images/service-poster.jpg") fixed;
   background-position: bottom;
   background-size: cover;
   height: 40vh;
@@ -949,7 +949,7 @@ footer .footer-number svg {
 }
 
 .service-main-section .services .services-div h1, .service-main-section .services .services-div h3 {
-  color: #DC143C;
+  color: #1261A0;
   padding: 1rem;
   text-align: left;
   font-weight: bold;
@@ -1092,7 +1092,7 @@ footer .footer-number svg {
 }
 
 .top-poster .top-poster-content h1 {
-  color: #DC143C;
+  color: #1261A0;
   text-align: center;
 }
 
@@ -1214,7 +1214,7 @@ footer .footer-number svg {
 }
 
 .main-main-section h1 {
-  color: #DC143C;
+  color: #1261A0;
   font-weight: bold;
   padding: 1rem;
   font-size: 1.5rem;
@@ -1254,7 +1254,7 @@ footer .footer-number svg {
 
 .main-about-us .about-div h1 {
   font-weight: bold;
-  color: #DC143C;
+  color: #1261A0;
   font-size: 1.5rem;
 }
 
@@ -1268,12 +1268,12 @@ footer .footer-number svg {
   padding: 1rem 0;
   width: 100%;
   margin: 1rem auto;
-  border-top: 1px solid #DC143C;
-  border-bottom: 1px solid #DC143C;
+  border-top: 1px solid #1261A0;
+  border-bottom: 1px solid #1261A0;
 }
 
 .main-second-section #sec-h1 {
-  color: #DC143C;
+  color: #1261A0;
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -1418,7 +1418,7 @@ footer .footer-number svg {
 }
 
 .main-third-section-div h1 {
-  color: #DC143C;
+  color: #1261A0;
   font-weight: bold;
   padding: 1rem;
   font-size: 1.5rem;
@@ -1434,7 +1434,7 @@ footer .footer-number svg {
   height: 3em;
   padding: 0.7em;
   border-radius: 50%;
-  background-color: #DC143C;
+  background-color: #1261A0;
   position: fixed;
   bottom: 1em;
   right: 1em;
@@ -1465,7 +1465,7 @@ footer .footer-number svg {
   height: 2.5em;
   padding: 0.5em;
   border-radius: 50%;
-  background-color: #DC143C;
+  background-color: #1261A0;
   margin: 0.5em;
   -webkit-transition: 0.1s linear;
   transition: 0.1s linear;
