@@ -525,35 +525,9 @@ footer .footer-number svg {
 
 .contact-page {
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   background: -webkit-gradient(linear, left top, right top, from(rgba(18, 97, 160, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../../images/begin.jpg") top;
   background: linear-gradient(to right, rgba(18, 97, 160, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/begin.jpg") top;
   background-size: cover;
-}
-
-.contact-page .contact-side-text {
-  width: 20%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.contact-page .contact-side-text h1 {
-  text-align: center;
-  padding: 1rem;
-  font-weight: bold;
-  font-size: 5rem;
-  color: white;
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-  -webkit-transform: rotateZ(180deg);
-          transform: rotateZ(180deg);
 }
 
 .contact-page .contact-body-section {
@@ -564,44 +538,15 @@ footer .footer-number svg {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 80%;
-  padding: 1rem;
-}
-
-.contact-page .contact-body-section form {
   width: 100%;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.contact-page .contact-body-section iframe {
+  width: 100%;
+  height: 1200px;
   padding: 5rem 0;
-}
-
-.contact-page .contact-body-section form ::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.589);
-}
-
-.contact-page .contact-body-section form :-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.589);
-}
-
-.contact-page .contact-body-section form ::-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.589);
-}
-
-.contact-page .contact-body-section form ::placeholder {
-  color: rgba(255, 255, 255, 0.589);
-}
-
-.contact-page .contact-body-section form span {
-  color: white;
-  margin-bottom: 1rem;
-  font-size: 2rem;
-}
-
-.contact-page .contact-body-section form input, .contact-page .contact-body-section form textarea {
-  background: transparent;
-  border-radius: 0;
-  border: none;
-  border-bottom: 0.1rem solid white;
-  margin-bottom: 1rem;
-  color: white;
 }
 
 .contact-page .contact-body-section .contact-info {
@@ -656,17 +601,14 @@ footer .footer-number svg {
 }
 
 @media screen and (min-width: 800px) and (max-width: 1100px) {
-  .contact-page {
-    height: 100vh;
-  }
   .contact-page .contact-body-section {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .contact-page .contact-body-section form {
-    width: 60%;
+  .contact-page .contact-body-section iframe {
+    width: 70%;
     margin: auto 1rem;
   }
   .contact-page .contact-body-section .contact-info {
@@ -684,17 +626,14 @@ footer .footer-number svg {
 }
 
 @media screen and (min-width: 1100px) {
-  .contact-page {
-    height: 100vh;
-  }
   .contact-page .contact-body-section {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .contact-page .contact-body-section form {
-    width: 60%;
+  .contact-page .contact-body-section iframe {
+    width: 70%;
     margin: auto 1rem;
   }
   .contact-page .contact-body-section .contact-info {
